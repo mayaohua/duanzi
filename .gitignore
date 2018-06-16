@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+node_modules/
+/dist/
+=======
+.DS_Store
+node_modules/
+client/dist/
+>>>>>>> 63a0e49997739e21c1e75a56349160909d0357d3
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
