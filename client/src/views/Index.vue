@@ -5,31 +5,44 @@
       <p v-show="!more">服务器连接失败，请稍候重试</p>
     </div>
     <div v-show="Object.keys(data).length">
-      <ul id="scrollWrap" ref="scroll-wrap" v-infinite-scroll="loadMore"
-  infinite-scroll-disabled="loading"
-  infinite-scroll-distance="20">
-        <li v-for="item in data.list">
-          <p v-if="item.content">{{ item.content }}</p>
-          <div class="img-box" v-if="item.imgs" >
-              <div v-for="img in getImgsPath(item.imgs)" :style="{width:item.imgs.length==1?'100%':item.imgs.length==2?'50%':'33.3%'}">
-                <div >
-                  <img @click="showPicPopup(img,item)" :style="changeImgW(item.imgs)" :src="img.pathimg">
-                  <span v-show="img.fmt == 'gif'" class="gifImg typeImg"></span>
-                  <span v-show="img.video == 1" class="mp4Img typeImg"></span>
+      <mt-loadmore :top-method="loadTop" ref="loadmore">
+        <ul id="scrollWrap" ref="scroll-wrap" v-infinite-scroll="loadMore"
+    infinite-scroll-disabled="loading"
+    infinite-scroll-distance="20">
+          <li v-for="item in data.list">
+            <p v-if="item.content">{{ item.content }}</p>
+            <div class="img-box" v-if="item.imgs" >
+                <div v-for="img in getImgsPath(item.imgs)" :style="{width:item.imgs.length==1?'100%':item.imgs.length==2?'50%':'33.3%'}" @click="showPicPopup(img,item)">
+                  <div>
+                    <img  :style="changeImgW(item.imgs)" v-lazy.scrollWrap="img.pathimg">
+                    <span v-show="img.fmt == 'gif'" class="gifImg typeImg"></span>
+                    <span v-show="img.video == 1" class="mp4Img typeImg"></span>
+                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="evaluate" v-if="item.god_reviews instanceof Array">
-              <mt-badge type="error">神</mt-badge>
-              <p v-html="item.god_reviews[0].review"></p>
-              <div v-if="item.god_reviews[0].audio" style="padding:10px 0;border:1px solid red;"></div>
-              <!-- <p v-text="item.god_reviews.length"></p> -->
-          </div>
-        </li>
-      </ul>
+            </div>
+            <!-- 神评 -->
+            <div class="evaluate" v-if="item.god_reviews instanceof Array">
+                <mt-badge type="error">神</mt-badge>
+                <!-- <p v-html="item.god_reviews[0].review"></p> -->
+                <!-- 语音 -->
+                <div v-if="item.god_reviews[0].audio" style="padding:10px 0;">
+                  <div style="width: 150px;height: 30px;border-radius: 4px;background: linear-gradient(to right, #2dcdff , #149eff);padding: 0 10px;line-height: 30px;" @click="audioPlay(item.god_reviews[0].audio)">
+                    <img :src="'/static/img/audio_'+(audio.audio_palying && audio.audio_file == item.god_reviews[0].audio.url?'off':'on')+'.png'" width="9" height="11">
+                    <img src="/static/img/audio_line.png" width="9" height="11" style="margin-left: 5px;">
+                    <span style="float: right;color: white;">{{
+                      (audio.audio_file == item.god_reviews[0].audio.url)?audio.time:item.god_reviews[0].audio.dur
+                    }}s</span>
+                  </div>
+                </div>
+                <!-- <p v-text="item.god_reviews.length"></p> -->
+            </div>
+          </li>
+        </ul>
+      </mt-loadmore>
       <div style="padding-bottom:5px;"  v-show="loading && more">
         <mt-spinner color="rgb(38, 162, 255)" style="text-align: center;" type="triple-bounce"></mt-spinner>
       </div>
+      <!-- <audio id="audio" :src="audio.audio_file"></audio> -->
     </div>
     <!-- 图片展示 -->
     <PicPopup :obj="picPopup" @closePicPopup="picPopup.show = false"/>
@@ -46,14 +59,26 @@ export default {
     return {
       picPopup:{
           show:false,
-          path : '',
+          path : {
+            img:'',
+            video:'',
+          },
           type:'img',
       },
+      audio:{
+        audio_palying : false,
+        audio_file : '',
+        obj : {},
+        time : 0,
+      },
       loading:false,
+      reloading:false,
       more:true,
       data : {},
+      baseurl : "/api/topic/posts_list",
       baseimgpath:'https://file.izuiyou.com/img/view/',
-      requestdata:{
+      requestdata:
+      //{
         //  ctn:20
         // ,direction:"up"
         // ,filter:"imgtxt"
@@ -64,11 +89,18 @@ export default {
         // ,offset:0
         // ,tab:"rec"
         // ,ua:"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36"
+      //}
+      {
+        "sort": "new",//hot
+        "h_m": 69753545,
+        "token": "TcK1NKHn5iSng4ZCsJ0DlRUMA3oPMNA8mEESo9j_HzF8FwzV4U5Hw76W4UyznX2Lq4-0u",
+        "tid": 101743,//126160
+        "next_cb": '',//"{\"offset\":20,\"next_list_cb\":\"{\\\"consumed_number\\\":20}\"}",
       }
     }
   }
   ,methods:{
-    getDataList(){
+    getDataList(callback){
       //判断本地是否有资源
       // if(window.sessionStorage.datalist){
       //   this.data = JSON.parse(window.sessionStorage.datalist);return ;
@@ -77,12 +109,13 @@ export default {
       if(!this.more){
         return;
       }
-      let url = '/api/index/webrecommend';
+      //http://api.izuiyou.com/topic/posts_list?sign=06705d363de84391271df7780dd0d56a
+      //http://api.izuiyou.com
+      //http://api.izuiyou.com/index/recommend?sign=df3bffc13b368aeb9b4c5ab3472c11b2
       let vue = this;
-      this.$axios.post(url,this.requestdata)
+      this.$axios.post(this.baseurl,this.requestdata)
       .then(function(response) {
         if(response.data.ret == 1){
-          //console.log(response.data.data);
           if(vue.data.list){
             if(response.data.data.more == 0){
               vue.more = false;
@@ -94,22 +127,23 @@ export default {
               return ;
             }
             vue.data.list = vue.data.list.concat(response.data.data.list)
-            vue.data.offset = response.data.data.offset;
           }else{
             vue.data = response.data.data;
           }
           vue.requestdata.offset = vue.data.offset;
-          //window.sessionStorage.datalist = JSON.stringify(vue.data);
+           callback();
         }else{
           vue.$toast({
                 message: '获取数据失败',
                 position: 'top'
           });
           vue.more = false;
+          console.log(error);
         }
         vue.loading = false;
       }).catch((error)=>{
           vue.more = false;
+          console.log(error)
       });
     }
     ,getImgsPath(imgArr){
@@ -118,7 +152,7 @@ export default {
       var sz = 0;
       var marginx = 0;
       if(imgArr.length==1){
-          sz = 480;
+          sz = '480x270';
           marginx = 0;
       }else if(imgArr.length>=2){
         sz = 148;
@@ -144,19 +178,81 @@ export default {
       this.loading = true;
       let vue = this;
       setTimeout(()=>{
-        vue.getDataList();
-      },3000)
-      
+        vue.getDataList(()=>{});
+      },1500)
     },
+    loadTop() {
+        // 加载更多数据
+        
+        setTimeout(()=>{
+          this.data = {};
+          this.getDataList(()=>{
+          this.$refs.loadmore.onTopLoaded();
+        });
+        },3000)
+        
+      },
     showPicPopup(img,item){
-      this.picPopup.path = this.baseimgpath+'id/'+img.id;
       this.picPopup.show = true;
       if(img.video == 1){
         this.picPopup.type = "video";
+        this.picPopup.path.img = item.videos[img.id].cover_urls[0]
+        this.picPopup.path.video = item.videos[img.id].url;
       }else{
         this.picPopup.type = "img";
+        this.picPopup.path.img = this.baseimgpath+'id/'+img.id;
+        this.picPopup.path.video = '';
       }
       
+    },
+    audioPlay:function(data){
+      //播放音乐
+      if(data.url == this.audio.audio_file){
+        if(this.audio.audio_palying){
+          this.audio.obj.pause();
+          window.clearInterval(window.timeInter);
+        }else{
+          this.audio.obj.play();
+          //开启计时器
+          var vue = this;
+          window.timeInter = setInterval(function(){
+            vue.audio.time = parseInt(vue.audio.obj.duration) - parseInt(vue.audio.obj.currentTime);
+          });
+        }
+        this.audio.audio_palying = !this.audio.audio_palying;
+      }else{
+        //判断是否在播放其它的如果播放则暂停
+        if(this.audio.audio_file != '' && !this.audio.obj.paused){
+           this.audio.obj.pause();
+        }
+        this.audio.audio_file = data.url;
+        this.audio.time = data.dur;
+      }
+    }
+  }
+  ,watch:{
+    'audio.audio_file'(){
+      if(this.audio.audio_file == ''){
+        return ;
+      }
+      this.audio.audio_palying = true;
+      this.audio.obj = new Audio(this.audio.audio_file);
+      this.audio.obj.play();
+      var vue = this;
+      this.audio.obj.addEventListener('canplay', function(e){
+        window.timeInter = setInterval(function(){
+          vue.audio.time = parseInt(vue.audio.obj.duration) - parseInt(vue.audio.obj.currentTime);
+        });
+      });
+      this.audio.obj.addEventListener('pause', function(e){
+        window.clearInterval(window.timeInter);
+      });
+
+      this.audio.obj.addEventListener('ended', function(e){
+        window.clearInterval(window.timeInter);
+        vue.audio.audio_palying = false;
+        vue.audio.audio_file = '';
+      },false);
     }
   }
   ,created:function(){
@@ -218,8 +314,11 @@ export default {
     float: left;
   }
   ul li .img-box div div{
-    margin:3px;
-
+    /*margin:3px;*/
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    transform:scale(0.98,0.98);
   }
   ul li .img-box div{
     position: relative;
@@ -246,9 +345,11 @@ export default {
   }
   ul li .img-box div .gifImg{
     background: url(/static/img/gif.png) no-repeat 50%;
+    background-size: 100% 100%;
   }
 ul li .img-box div .mp4Img{
     background: url(/static/img/mp4.png) no-repeat 50%;
+    background-size: 100% 100%;
   }
   ul li .evaluate{
     background-color:#eee;

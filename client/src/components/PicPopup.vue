@@ -2,8 +2,11 @@
 	<div class="picpopup-wrap" v-show="obj.show">
         <span @click="close()">×</span>
         <div>
-        	<img class="mp4"  v-show="!loadshow && obj.type=='img'" @load="loadimg()" :src="obj.path">
-        	<img  v-show="!loadshow && obj.type=='video'" @load="loadimg()" :src="obj.path">
+        	
+        	<img  v-show="!loadshow && obj.type=='img'" @load="loadimg()" :src="obj.path.img">
+        	<video ref="video" v-show="!loadshow && obj.type=='video'" @canplay="loadimg()" controls="controls" autoplay loop  :src="obj.path.video" :poster="obj.path.img">
+        		
+        	</video>
         	<img class="load" v-show="loadshow" :src="loadingpath">
         </div>
      </div>
@@ -32,16 +35,18 @@ export default {
 			this.loadshow = false;
 		},
 		close(){
+			if(this.obj.type=='video'){
+				this.$refs.video.pause();
+			}
 			this.obj.show = false;
 		}
 	},
 	watch:{
-		'obj.path'(){
+		'obj.path.img'(){
 			this.loadshow = true;
 		}
 	},
 	beforeUpdate(){
-
 	}
 }
 </script>
@@ -54,9 +59,10 @@ export default {
 	height: 100%;
 	background-color: rgba(0,0,0,0.9);
 	z-index: 3;
+	overflow: auto;
 }
 .picpopup-wrap span{
-	position: absolute;
+	position: fixed;
 	top:10px;
 	right:15px;
 	color:white;
@@ -67,7 +73,7 @@ export default {
 .picpopup-wrap div{
 	position: absolute;top:50%;width: 100%;transform: translate(0,-50%);
 }
-.picpopup-wrap div img{
+.picpopup-wrap div img,.picpopup-wrap div video{
 	width: 100%;height: 100%;
 	display: block;
 	margin: auto;

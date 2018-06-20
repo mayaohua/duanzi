@@ -8,7 +8,9 @@ export default {
   name: 'Find'
   ,data (){
     return {
-      data : {},
+      data : {
+        
+      },
     }
   }
   ,methods:{

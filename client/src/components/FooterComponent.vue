@@ -1,13 +1,15 @@
 
 <template>
 	<footer class="mint-tabbar" :fixed="true">
-		<router-link tag="a" v-for="(item,index) in tabbarArr" class="mint-tab-item" :to="item.tabid" active-class="is-selected"  :key="index" >
-		    <div class="mint-tab-item-icon">
-		    	<img slot="icon" :src="item.tabimg">
-		    </div>
-		    <div class="mint-tab-item-label">
-		    {{item.tabname}}
-		    </div>
+		<router-link tag="a" v-for="(item,index) in tabbarArr" class="mint-tab-item" :to="item.tabid" active-class="is-selected"  :key="index">
+		    <div @click="changeNavTitle(item.tabid)">
+            <div class="mint-tab-item-icon">
+              <img slot="icon" :src="item.tabimg">
+            </div>
+            <div class="mint-tab-item-label">
+            {{item.tabname}}
+            </div>  
+        </div>
 		</router-link>
 		<!-- <mt-tabbar v-model="selected">
 		  <mt-tab-item  v-for="(item,index) in tabbarArr" :key="index" :id="item.tabid">
@@ -26,7 +28,7 @@ export default {
       navTitle:'',
       tabbarArr:[
       	{
-      		'tabname':'推荐',
+      		'tabname':'最右',
       		'tabid':'/index',
       		'tabimg':'/static/img/index_tarbar.png'
       	},
@@ -58,16 +60,9 @@ export default {
   		vue.$emit('navTitle',vue.navTitle)
     }
   },
-  watch:{
-  	selected:function(newvalue,oldvalue){
-  		//改变title的文字
-  		this.changeNavTitle(newvalue);
-  		this.$router.push(newvalue);
-  	}
-  },
   created:function(){
   	this.selected = this.$route.path;
-	this.changeNavTitle(this.selected);
+	  this.changeNavTitle(this.selected);
   }
 }
 </script>
