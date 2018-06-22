@@ -15,7 +15,8 @@
                   <div class="img-box" v-if="item.imgs" >
                       <div v-for="img in getImgsPath(item.imgs)" :style="{width:item.imgs.length==1?'100%':item.imgs.length==2?'50%':'33.3%'}" @click="showPicPopup(img,item)">
                         <div>
-                          <img  :style="changeImgW(item.imgs)" v-lazy.scrollWrap="img.pathimg">
+                          <!-- v-lazy.scrollWrap="img.pathimg" -->
+                          <img  :style="changeImgW(item.imgs)" :src="img.pathimg">
                           <span v-show="img.fmt == 'gif'" class="gifImg typeImg"></span>
                           <span v-show="img.video == 1" class="mp4Img typeImg"></span>
                         </div>
@@ -45,9 +46,9 @@
             </div>
             <!-- <audio id="audio" :src="audio.audio_file"></audio> -->
           </div>
-          <!-- 图片展示 -->
-          <PicPopup :obj="picPopup" @closePicPopup="picPopup.show = false"/>
     </div>
+    <!-- 图片展示 -->
+          <PicPopup :obj="picPopup" @closePicPopup="picPopup.show = false"/>
   </div>
 </template>
 <script>
