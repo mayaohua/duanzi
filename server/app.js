@@ -3,15 +3,35 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const timeout = require('connect-timeout');
+const proxy = require('http-proxy-middleware');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 1 + 1;
 var app = express();
 
+
+// 超时时间
+const TIME_OUT = 30 * 1e3;
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
+
+// 设置超时 返回超时响应
+app.use(timeout(TIME_OUT));
+app.use((req, res, next) => {
+	if (!req.timedout) next();
+});
+
+app.use(proxy('/api', {
+	target: 'http://api.izuiyou.com',
+	changeOrigin: true,
+	pathRewrite: {
+		'^/api': ''
+	},
+}));
 
 app.use(logger('dev'));
 app.use(express.json());
