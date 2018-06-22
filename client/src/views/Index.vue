@@ -1,55 +1,58 @@
 <template>
-  <div class="wrap">
-    <div class="load-wrap">
-      <mt-spinner v-show="!Object.keys(data).length && more" class="loading" type="double-bounce" color="rgb(38, 162, 255)"></mt-spinner>
-      <p v-show="!more">服务器连接失败，请稍候重试</p>
-    </div>
-    <div v-show="Object.keys(data).length">
-      <mt-loadmore :top-method="loadTop" ref="loadmore">
-        <ul id="scrollWrap" ref="scroll-wrap" v-infinite-scroll="loadMore"
-    infinite-scroll-disabled="loading"
-    infinite-scroll-distance="20">
-          <li v-for="item in data.list">
-            <p v-if="item.content">{{ item.content }}</p>
-            <div class="img-box" v-if="item.imgs" >
-                <div v-for="img in getImgsPath(item.imgs)" :style="{width:item.imgs.length==1?'100%':item.imgs.length==2?'50%':'33.3%'}" @click="showPicPopup(img,item)">
-                  <div>
-                    <img  :style="changeImgW(item.imgs)" v-lazy.scrollWrap="img.pathimg">
-                    <span v-show="img.fmt == 'gif'" class="gifImg typeImg"></span>
-                    <span v-show="img.video == 1" class="mp4Img typeImg"></span>
+  <div ref="scroll" class="wrapper wrap">
+    <div class="box"v-infinite-scroll="loadMore"
+          infinite-scroll-disabled="loading"
+          infinite-scroll-distance="20">
+        <div class="load-wrap" >
+            <mt-spinner v-show="!Object.keys(data).length && more" class="loading" type="double-bounce" color="rgb(38, 162, 255)"></mt-spinner>
+            <p v-show="!more">服务器连接失败，请稍候重试</p>
+          </div>
+          <div v-show="Object.keys(data).length">
+            <mt-loadmore :top-method="loadTop" ref="loadmore">
+                <ul id="scrollWrap" ref="scroll-wrap" >
+                <li v-for="item in data.list">
+                  <p v-if="item.content">{{ item.content }}</p>
+                  <div class="img-box" v-if="item.imgs" >
+                      <div v-for="img in getImgsPath(item.imgs)" :style="{width:item.imgs.length==1?'100%':item.imgs.length==2?'50%':'33.3%'}" @click="showPicPopup(img,item)">
+                        <div>
+                          <img  :style="changeImgW(item.imgs)" v-lazy.scrollWrap="img.pathimg">
+                          <span v-show="img.fmt == 'gif'" class="gifImg typeImg"></span>
+                          <span v-show="img.video == 1" class="mp4Img typeImg"></span>
+                        </div>
+                      </div>
                   </div>
-                </div>
-            </div>
-            <!-- 神评 -->
-            <div class="evaluate" v-if="item.god_reviews instanceof Array">
-                <mt-badge type="error">神</mt-badge>
-                <!-- <p v-html="item.god_reviews[0].review"></p> -->
-                <!-- 语音 -->
-                <div v-if="item.god_reviews[0].audio" style="padding:10px 0;">
-                  <div style="width: 150px;height: 30px;border-radius: 4px;background: linear-gradient(to right, #2dcdff , #149eff);padding: 0 10px;line-height: 30px;" @click="audioPlay(item.god_reviews[0].audio)">
-                    <img :src="'/static/img/audio_'+(audio.audio_palying && audio.audio_file == item.god_reviews[0].audio.url?'off':'on')+'.png'" width="9" height="11">
-                    <img src="/static/img/audio_line.png" width="9" height="11" style="margin-left: 5px;">
-                    <span style="float: right;color: white;">{{
-                      (audio.audio_file == item.god_reviews[0].audio.url)?audio.time:item.god_reviews[0].audio.dur
-                    }}s</span>
+                  <!-- 神评 -->
+                  <div class="evaluate" v-if="item.god_reviews instanceof Array">
+                      <mt-badge type="error">神</mt-badge>
+                      <!-- <p v-html="item.god_reviews[0].review"></p> -->
+                      <!-- 语音 -->
+                      <div v-if="item.god_reviews[0].audio" style="padding:10px 0;">
+                        <div style="width: 150px;height: 30px;border-radius: 4px;background: linear-gradient(to right, #2dcdff , #149eff);padding: 0 10px;line-height: 30px;" @click="audioPlay(item.god_reviews[0].audio)">
+                          <img :src="'/static/img/audio_'+(audio.audio_palying && audio.audio_file == item.god_reviews[0].audio.url?'off':'on')+'.png'" width="9" height="11">
+                          <img src="/static/img/audio_line.png" width="9" height="11" style="margin-left: 5px;">
+                          <span style="float: right;color: white;">{{
+                            (audio.audio_file == item.god_reviews[0].audio.url)?audio.time:item.god_reviews[0].audio.dur
+                          }}s</span>
+                        </div>
+                      </div>
+                      <!-- <p v-text="item.god_reviews.length"></p> -->
                   </div>
-                </div>
-                <!-- <p v-text="item.god_reviews.length"></p> -->
+                </li>
+              </ul>
+            </mt-loadmore>
+            <div style="padding-bottom:5px;"  v-show="loading && more">
+              <mt-spinner color="rgb(38, 162, 255)" style="text-align: center;" type="triple-bounce"></mt-spinner>
             </div>
-          </li>
-        </ul>
-      </mt-loadmore>
-      <div style="padding-bottom:5px;"  v-show="loading && more">
-        <mt-spinner color="rgb(38, 162, 255)" style="text-align: center;" type="triple-bounce"></mt-spinner>
-      </div>
-      <!-- <audio id="audio" :src="audio.audio_file"></audio> -->
+            <!-- <audio id="audio" :src="audio.audio_file"></audio> -->
+          </div>
+          <!-- 图片展示 -->
+          <PicPopup :obj="picPopup" @closePicPopup="picPopup.show = false"/>
     </div>
-    <!-- 图片展示 -->
-    <PicPopup :obj="picPopup" @closePicPopup="picPopup.show = false"/>
   </div>
 </template>
 <script>
 import PicPopup from '../components/PicPopup'
+import BScroll from 'better-scroll'
 export default {
   name: 'Index'
   ,components:{
@@ -100,6 +103,11 @@ export default {
     }
   }
   ,methods:{
+    _initScroll(){
+      this.menu = new BScroll(this.$refs.scroll, {
+        click: true
+      })
+    },
     getDataList(callback){
       //判断本地是否有资源
       // if(window.sessionStorage.datalist){
@@ -131,6 +139,9 @@ export default {
             vue.data = response.data.data;
           }
           vue.requestdata.offset = vue.data.offset;
+          vue.$nextTick(()=>{
+            vue._initScroll();
+          });
            callback();
         }else{
           vue.$toast({
@@ -269,6 +280,8 @@ export default {
      var scrollTop = document.getElementsByClassName('wrap')[0].scrollTop;
      from.meta.savedPosition = scrollTop;
     next()
+  },
+  mounted:function(){
   }
 }
 </script>

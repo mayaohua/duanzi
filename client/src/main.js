@@ -8,6 +8,7 @@ import Mint from 'mint-ui';
 import base from './base.vue.js';
 import JQuery from 'jquery';
 
+
 import VueVideoPlayer from 'vue-video-player'
 
 Vue.use(VueVideoPlayer)
@@ -20,8 +21,10 @@ Vue.prototype.$axios = axios;
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+	el: '#app',
+	router,
+	components: {
+		App
+	},
+	template: '<App/>'
 })

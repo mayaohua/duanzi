@@ -3,20 +3,30 @@
     <div class="load-wrap">
       <mt-spinner v-show="!Object.keys(data).length" class="loading" type="double-bounce" color="rgb(38, 162, 255)"></mt-spinner>
     </div>
-    <div id="scrollWrap" v-show="Object.keys(data).length">
-        <h2 v-for="item in data.list">FInd Page</h2>
+    <div id="scrollWrap" ref="scroll" class="wrapper" v-show="Object.keys(data).length" style="height:225px;overflow:hidden">
+        <div>
+          <h2 v-for="item in data.list">FInd Page</h2>
+        </div>
     </div>
   </div>
 </template>
 <script>
+
+  import BScroll from 'better-scroll'
 export default {
   name: 'Find'
   ,data (){
     return {
       data : {},
+      scroll:'',
     }
   }
   ,methods:{
+    _initScroll(){
+      this.menu = new BScroll(this.$refs.scroll, {
+        click: true
+      })
+    },
     getDataList(){
       let url = '/api/index/webrecommend';
       let vue = this;
@@ -31,6 +41,9 @@ export default {
               }
             );
           vue.data = response.data.data;
+          vue.$nextTick(() => {
+            vue._initScroll()
+          })
         }
       });
     }
