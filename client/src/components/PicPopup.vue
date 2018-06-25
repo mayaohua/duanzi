@@ -71,7 +71,7 @@ export default {
 	z-index: 4;
 }
 .picpopup-wrap div{
-	position: absolute;top:50%;width: 100%;transform: translate(0,-50%);
+	position: absolute;top:50%;width: 100%;transform: translate(0,-50%);z-index: 1;
 }
 .picpopup-wrap div img,.picpopup-wrap div video{
 	width: 100%;height: 100%;
