@@ -62,9 +62,9 @@ export default {
 	overflow: auto;
 }
 .picpopup-wrap span{
-	position: fixed;
-	top:10px;
-	right:15px;
+	position: absolute;
+	top:50px;
+	right:20px;
 	color:white;
 	font-size: 30px;
 	display: block;
@@ -86,6 +86,7 @@ export default {
 	top: 50%;
     left: 0;
     transform: translateY(-50%);
+    z-index: 1;
 }
 .picpopup-wrap div img.load{
 	width: 50px;
