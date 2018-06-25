@@ -4,7 +4,7 @@
         <div>
         	
         	<img  v-show="!loadshow && obj.type=='img'" @load="loadimg()" :src="obj.path.img">
-        	<video ref="video" v-show="!loadshow && obj.type=='video'" @canplay="loadimg()" controls="controls" autoplay loop  :src="obj.path.video" :poster="obj.path.img">
+        	<video x5-playsinline="" playsinline="" webkit-playsinline="" ref="video" v-show="!loadshow && obj.type=='video'" @canplay="loadimg()" controls="controls" autoplay loop  :src="obj.path.video" :poster="obj.path.img">
         		
         	</video>
         	<img class="load" v-show="loadshow" :src="loadingpath">
@@ -79,6 +79,7 @@ export default {
 	margin: auto;
 }
 .picpopup-wrap div video{
+	display: none;
 	width: 100%;
 	display: block;
 	margin: auto;
