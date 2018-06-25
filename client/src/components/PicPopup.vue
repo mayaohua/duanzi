@@ -73,10 +73,19 @@ export default {
 .picpopup-wrap div{
 	position: absolute;top:50%;width: 100%;transform: translate(0,-50%);z-index: 1;
 }
-.picpopup-wrap div img,.picpopup-wrap div video{
-	width: 100%;height: 100%;
+.picpopup-wrap div img{
+	width: 100%;
 	display: block;
 	margin: auto;
+}
+.picpopup-wrap div video{
+	width: 100%;
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 .picpopup-wrap div img.load{
 	width: 50px;
