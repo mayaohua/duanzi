@@ -10,3 +10,5 @@
 2018-06-12 14:41 +08:00: [0mGET /socket.io/?EIO=3&transport=polling&t=MFokhBx [33m404 [0m5.945 ms - 1232[0m
 2018-06-12 14:41 +08:00: [0mGET /socket.io/?EIO=3&transport=polling&t=MFokiWN [33m404 [0m7.751 ms - 1232[0m
 2018-06-12 14:42 +08:00: [0mGET /socket.io/?EIO=3&transport=polling&t=MFokjkm [33m404 [0m5.345 ms - 1232[0m
+2018-06-25 10:58 +08:00: [HPM] Proxy created: /api  ->  http://api.izuiyou.com
+2018-06-25 10:58 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""

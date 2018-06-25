@@ -47,11 +47,9 @@ export default {
   .wrap{
     position: absolute;
     overflow-x: hidden;
-    /*overflow-y: scroll;*/
     box-sizing: border-box;
     top:40px;
     bottom:55px;
     width: 100%;
-    /*-webkit-overflow-scrolling: touch;*/
   }
 </style>

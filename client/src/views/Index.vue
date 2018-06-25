@@ -1,14 +1,16 @@
 <template>
-  <div ref="scroll" class="wrapper wrap">
-    <div class="box"v-infinite-scroll="loadMore"
-          infinite-scroll-disabled="loading"
-          infinite-scroll-distance="20">
-        <div class="load-wrap" >
-            <mt-spinner v-show="!Object.keys(data).length && more" class="loading" type="double-bounce" color="rgb(38, 162, 255)"></mt-spinner>
-            <p v-show="!more">服务器连接失败，请稍候重试</p>
-          </div>
+  <div>
+    <MyScroll ref="scroll" class="wrapper wrap"
+   :data="data"
+   :loadingStatus="loadingStatus" 
+   :loadingMore="loadingMore"
+   :pulldown="pulldown" 
+   @scrollToStart="loadTop()" 
+   :pullup="pullup"  
+   @scrollToEnd="loadMore()">
+    <!-- <mt-loadmore :top-method="loadTop" ref="loadmore"> -->
+    <div class="box">
           <div v-show="Object.keys(data).length">
-            <mt-loadmore :top-method="loadTop" ref="loadmore">
                 <ul id="scrollWrap" ref="scroll-wrap" >
                 <li v-for="item in data.list">
                   <p v-if="item.content">{{ item.content }}</p>
@@ -36,31 +38,29 @@
                           }}s</span>
                         </div>
                       </div>
-                      <!-- <p v-text="item.god_reviews.length"></p> -->
                   </div>
                 </li>
               </ul>
-            </mt-loadmore>
-            <div style="padding-bottom:5px;"  v-show="loading && more">
-              <mt-spinner color="rgb(38, 162, 255)" style="text-align: center;" type="triple-bounce"></mt-spinner>
-            </div>
-            <!-- <audio id="audio" :src="audio.audio_file"></audio> -->
           </div>
     </div>
-    <!-- 图片展示 -->
-          <PicPopup :obj="picPopup" @closePicPopup="picPopup.show = false"/>
+  </MyScroll>
+  <!-- 图片展示 -->
+  <PicPopup :obj="picPopup" @closePicPopup="picPopup.show = false"/>
   </div>
 </template>
 <script>
 import PicPopup from '../components/PicPopup'
-import BScroll from 'better-scroll'
+import MyScroll from '../components/MyScroll'
 export default {
   name: 'Index'
   ,components:{
-    PicPopup
+    PicPopup,
+    MyScroll
   }
   ,data (){
     return {
+      pulldown: true,
+      pullup: true,
       picPopup:{
           show:false,
           path : {
@@ -75,8 +75,15 @@ export default {
         obj : {},
         time : 0,
       },
-      loading:false,
-      reloading:false,
+      //重新加载
+      loadingStatus : {
+          isShow:true,
+          showIcon:true,
+          status:'',
+        },
+      //加载更多
+      loadingMore : false,
+      //没有了
       more:true,
       data : {},
       baseurl : "/api/topic/posts_list",
@@ -104,11 +111,19 @@ export default {
     }
   }
   ,methods:{
-    _initScroll(){
-      this.menu = new BScroll(this.$refs.scroll, {
-        click: true
-      })
-    },
+    // _initScroll(){
+    //   if (!this.scroll) {
+    //     this.scroll = new BScroll(this.$refs.scroll, {})
+    //     this.scroll.on('touchend', (pos) => {
+    //       // 下拉动作
+    //       if (pos.y > 50) {
+    //         console.log('出发');
+    //       }
+    //     })
+    //   } else {
+    //     this.scroll.refresh()
+    //   }
+    // },
     getDataList(callback){
       //判断本地是否有资源
       // if(window.sessionStorage.datalist){
@@ -127,8 +142,6 @@ export default {
         if(response.data.ret == 1){
           if(vue.data.list){
             if(response.data.data.more == 0){
-              vue.more = false;
-              vue.loading = false;
               vue.$toast({
                 message: '到底啦^_^',
                 position: 'bottom'
@@ -140,19 +153,14 @@ export default {
             vue.data = response.data.data;
           }
           vue.requestdata.offset = vue.data.offset;
-          vue.$nextTick(()=>{
-            vue._initScroll();
-          });
-           callback();
         }else{
           vue.$toast({
-                message: '获取数据失败',
-                position: 'top'
+                message: '获取数据失败,请稍后重试',
+                position: 'bottom'
           });
-          vue.more = false;
           console.log(error);
         }
-        vue.loading = false;
+        callback(response.data.ret);
       }).catch((error)=>{
           vue.more = false;
           console.log(error)
@@ -187,19 +195,41 @@ export default {
       }
     }
     ,loadMore() {
+      this.pullup = false;
       this.loading = true;
       let vue = this;
+      this.loadingMore = true;
       setTimeout(()=>{
-        vue.getDataList(()=>{});
-      },1500)
+        vue.getDataList((code)=>{
+          vue.loadingMore = false;
+          vue.pullup = true;
+        });
+      },3000)
     },
     loadTop() {
+        this.pulldown = false;
         // 加载更多数据
-        
+        this.loadingStatus = {
+          isShow:true,
+          showIcon:true,
+          status:'',
+        };
         setTimeout(()=>{
           this.data = {};
-          this.getDataList(()=>{
-          this.$refs.loadmore.onTopLoaded();
+          this.getDataList((code)=>{
+              this.loadingStatus = {
+                isShow:true,
+                showIcon:false,
+                status:code == 1?'加载成功':'加载失败',
+              };
+            setTimeout(() => {
+             this.loadingStatus = {
+              isShow:false,
+              showIcon:false,
+              status:'',
+            };
+            this.pulldown = true;
+          },1000);
         });
         },3000)
         
@@ -268,7 +298,16 @@ export default {
     }
   }
   ,created:function(){
-   // this.getDataList();
+   setTimeout(()=>{
+    this.getDataList(
+      ()=>{
+      this.loadingStatus={
+        isShow:false,
+        showIcon:false,
+        status:'',
+      };
+    });
+  },3000)
   },
   //   解除keep-alive的缓存
   beforeRouteEnter: (to, from, next) => {
