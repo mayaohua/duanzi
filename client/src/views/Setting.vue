@@ -16,10 +16,10 @@ export default {
       request: {
         baseurl:  "/api/topic/posts_list",  
         requestdata: {
-          "sort": "hot",//hot
+          "sort": "new",//hot
           "h_m": 69753545,
           "token": "TcK1NKHn5iSng4ZCsJ0DlRUMA3oPMNA8mEESo9j_HzF8FwzV4U5Hw76W4UyznX2Lq4-0u",
-          "tid": 125921,//视频
+          "tid": 126160,//全他妈都是套路
           "next_cb": "",
         }
       }

@@ -12,3 +12,485 @@
 2018-06-12 14:42 +08:00: [0mGET /socket.io/?EIO=3&transport=polling&t=MFokjkm [33m404 [0m5.345 ms - 1232[0m
 2018-06-25 10:58 +08:00: [HPM] Proxy created: /api  ->  http://api.izuiyou.com
 2018-06-25 10:58 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-06-26 16:27 +08:00: [0mGET / [33m404 [0m363.828 ms - 1098[0m
+2018-06-26 16:27 +08:00: [0mGET /stylesheets/style.css [33m404 [0m9.925 ms - 1098[0m
+2018-06-26 16:27 +08:00: [0mGET /favicon.ico [33m404 [0m9.116 ms - 1098[0m
+2018-06-26 16:27 +08:00: [0mGET / [33m404 [0m10.248 ms - 1098[0m
+2018-06-26 16:27 +08:00: [0mGET /stylesheets/style.css [33m404 [0m9.607 ms - 1098[0m
+2018-06-26 16:27 +08:00: [0mGET /api [32m200 [0m0.916 ms - 11[0m
+2018-06-26 16:29 +08:00: [0mGET /api [32m200 [0m5.342 ms - 7[0m
+2018-06-26 16:29 +08:00: [0mGET / [32m200 [0m0.814 ms - 7[0m
+2018-06-26 16:29 +08:00: [0mGET / [36m304 [0m0.419 ms - -[0m
+2018-06-26 16:29 +08:00: [0mGET / [32m200 [0m4.096 ms - 13[0m
+2018-06-26 16:29 +08:00: [0mGET /api [32m200 [0m1.252 ms - 13[0m
+2018-06-26 16:29 +08:00: [0mGET /api [31m500 [0m3.432 ms - -[0m
+2018-06-26 16:30 +08:00: [0mGET / [33m404 [0m0.884 ms - -[0m
+2018-06-26 16:30 +08:00: [0mGET / [33m404 [0m0.459 ms - -[0m
+2018-06-26 16:31 +08:00: 123
+2018-06-26 16:31 +08:00: [0mGET / [33m404 [0m187.989 ms - 1210[0m
+2018-06-26 16:31 +08:00: 123
+2018-06-26 16:31 +08:00: [0mGET /stylesheets/style.css [33m404 [0m11.916 ms - 1210[0m
+2018-06-26 16:32 +08:00: 123
+2018-06-26 16:32 +08:00: [0mGET / [31m503 [0m30178.419 ms - 652[0m
+2018-06-26 16:32 +08:00: 123
+2018-06-26 16:32 +08:00: 123
+2018-06-26 16:32 +08:00: [0mGET / [32m200 [0m4.849 ms - 13[0m
+2018-06-26 16:33 +08:00: 123
+2018-06-26 16:33 +08:00: [0mGET /api [36m304 [0m1.106 ms - -[0m
+2018-06-26 16:33 +08:00: 123
+2018-06-26 16:33 +08:00: [0mGET /api/ [32m200 [0m0.359 ms - 13[0m
+2018-06-26 16:33 +08:00: 123
+2018-06-26 16:33 +08:00: [0mGET /api/ [31m500 [0m4.919 ms - -[0m
+2018-06-26 16:33 +08:00: 123
+2018-06-26 16:33 +08:00: [0mGET / [33m404 [0m0.510 ms - -[0m
+2018-06-26 16:34 +08:00: 123
+2018-06-26 16:34 +08:00: [0mGET / [33m404 [0m0.682 ms - -[0m
+2018-06-26 16:34 +08:00: [0mGET / [36m304 [0m3.638 ms - -[0m
+2018-06-26 16:34 +08:00: [0mGET /api [32m200 [0m1.216 ms - 11[0m
+2018-06-26 16:35 +08:00: [0mGET / [33m404 [0m4.647 ms - -[0m
+2018-06-26 16:35 +08:00: [0mGET /api [36m304 [0m1.137 ms - -[0m
+2018-06-26 16:35 +08:00: [0mGET /index [33m404 [0m10.871 ms - 1098[0m
+2018-06-26 16:35 +08:00: [0mGET /stylesheets/style.css [33m404 [0m9.689 ms - 1098[0m
+2018-06-26 16:35 +08:00: [0mGET / [33m404 [0m0.549 ms - -[0m
+2018-06-26 16:39 +08:00: [0mGET / [32m200 [0m4.027 ms - 20[0m
+2018-06-26 16:40 +08:00: [0mGET / [36m304 [0m0.878 ms - -[0m
+2018-06-26 16:40 +08:00: [0mGET / [36m304 [0m0.351 ms - -[0m
+2018-06-26 16:41 +08:00: [0mGET / [36m304 [0m3.995 ms - -[0m
+2018-06-26 16:41 +08:00: [0mGET /api [36m304 [0m0.868 ms - -[0m
+2018-06-26 16:44 +08:00: [0mGET /api [32m200 [0m4.500 ms - 11[0m
+2018-06-26 16:50 +08:00: [0mGET /api [36m304 [0m3.796 ms - -[0m
+2018-06-26 16:50 +08:00: [0mGET /api/user [33m404 [0m346.500 ms - 1220[0m
+2018-06-26 16:50 +08:00: [0mGET /stylesheets/style.css [33m404 [0m11.403 ms - 1098[0m
+2018-06-26 16:50 +08:00: [0mGET /api/user [32m200 [0m3.678 ms - 23[0m
+2018-06-26 16:51 +08:00: [0mGET /api/user/all [32m200 [0m6.942 ms - 23[0m
+2018-06-26 16:52 +08:00: [0mGET /api/user/all [32m200 [0m7.191 ms - 107[0m
+2018-06-26 16:52 +08:00: [0mGET /api/user/all [36m304 [0m1.575 ms - -[0m
+2018-06-26 16:52 +08:00: [0mGET /api/user/all [32m200 [0m1.110 ms - 107[0m
+2018-06-26 16:52 +08:00: [0mGET /favicon.ico [33m404 [0m2112.193 ms - 1098[0m
+2018-06-26 16:52 +08:00: [0mGET /favicon.ico [33m404 [0m9.838 ms - 1098[0m
+2018-06-26 16:59 +08:00: [0mGET /api/user [32m200 [0m193.337 ms - 5579[0m
+2018-06-26 17:00 +08:00: [0mGET /api/user [32m200 [0m161.973 ms - 5579[0m
+2018-06-26 17:00 +08:00: [0mGET /api/user [32m200 [0m187.156 ms - 5241[0m
+2018-06-26 17:00 +08:00: [0mGET /api/user [32m200 [0m167.967 ms - 5241[0m
+2018-06-26 17:00 +08:00: [0mGET /api/user [36m304 [0m117.137 ms - -[0m
+2018-06-26 17:01 +08:00: [0mGET /api/user [36m304 [0m145.778 ms - -[0m
+2018-06-26 17:51 +08:00: [0mGET /api/user [31m503 [0m30345.320 ms - 652[0m
+2018-06-26 17:51 +08:00: [0mGET /stylesheets/style.css [33m404 [0m13.663 ms - 1098[0m
+2018-06-26 17:51 +08:00: [0mGET /api/user [32m200 [0m180.651 ms - 1[0m
+2018-06-26 17:52 +08:00: [0mGET /api/user [32m200 [0m177.286 ms - 23[0m
+2018-06-26 17:53 +08:00: 1
+2018-06-26 17:53 +08:00: 2
+2018-06-26 17:53 +08:00: 3
+2018-06-26 17:53 +08:00: 4
+2018-06-26 17:53 +08:00: 5
+2018-06-26 17:53 +08:00: 6
+2018-06-26 17:53 +08:00: 7
+2018-06-26 17:53 +08:00: 8
+2018-06-26 17:53 +08:00: 9
+2018-06-26 17:53 +08:00: 10
+2018-06-26 17:53 +08:00: 11
+2018-06-26 17:53 +08:00: 12
+2018-06-26 17:53 +08:00: 13
+2018-06-26 17:53 +08:00: 14
+2018-06-26 17:53 +08:00: [0mGET /api/user [31m503 [0m30158.003 ms - 652[0m
+2018-06-26 17:53 +08:00: [0mGET /stylesheets/style.css [33m404 [0m15.138 ms - 1098[0m
+2018-06-26 17:53 +08:00: 15
+2018-06-26 17:53 +08:00: 16
+2018-06-26 17:53 +08:00: 17
+2018-06-26 17:53 +08:00: 18
+2018-06-26 17:53 +08:00: 19
+2018-06-26 17:53 +08:00: 20
+2018-06-26 17:53 +08:00: 21
+2018-06-26 17:53 +08:00: 22
+2018-06-26 17:53 +08:00: [0mGET /api/user [32m200 [0m200.437 ms - 23[0m
+2018-06-26 17:53 +08:00: 1
+2018-06-26 17:53 +08:00: 2
+2018-06-26 17:54 +08:00: 3
+2018-06-26 17:54 +08:00: 4
+2018-06-26 17:54 +08:00: 5
+2018-06-26 17:54 +08:00: 6
+2018-06-26 17:54 +08:00: 7
+2018-06-26 17:54 +08:00: 8
+2018-06-26 17:54 +08:00: 9
+2018-06-26 17:54 +08:00: 10
+2018-06-26 17:54 +08:00: 11
+2018-06-26 17:54 +08:00: 12
+2018-06-26 17:54 +08:00: 13
+2018-06-26 17:54 +08:00: 14
+2018-06-26 17:54 +08:00: 15
+2018-06-26 17:54 +08:00: 16
+2018-06-26 17:54 +08:00: 17
+2018-06-26 17:54 +08:00: 18
+2018-06-26 17:54 +08:00: 19
+2018-06-26 17:54 +08:00: 20
+2018-06-26 17:54 +08:00: 21
+2018-06-26 17:54 +08:00: 22
+2018-06-26 17:54 +08:00: 23
+2018-06-26 17:54 +08:00: 24
+2018-06-26 17:54 +08:00: 25
+2018-06-26 17:54 +08:00: 26
+2018-06-26 17:54 +08:00: 27
+2018-06-26 17:54 +08:00: 28
+2018-06-26 17:54 +08:00: 29
+2018-06-26 17:54 +08:00: 30
+2018-06-26 18:10 +08:00: { target: 'duitang://www.duitang.com/explore/life_video/',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206120542_X2NtH.png',
+  lite_icon_url: 'http://img4q.duitang.com/uploads/people/201611/28/20161128184149_BM3nN.png',
+  name: '视频' }
+2018-06-26 18:10 +08:00: { target: 'https://www.duitang.com/class/index/?__urlopentype=pageweb&spm=xr2&app_code=gandalf&app_version=14',
+  icon_url: 'https://b-ssl.duitang.com/uploads/people/201806/07/20180607123920_8AXes.jpeg',
+  name: '堆糖Class' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5458bc6f586df50df83e066b',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206120949_mMLk8.png',
+  name: '美容美妆' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5459865d586df50df83e09c2',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206120925_34Ve8.png',
+  name: '美发造型' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5a3394adaad2ef47bc91ba48',
+  icon_url: 'https://b-ssl.duitang.com/uploads/people/201712/15/20171215173426_AS5UM.png',
+  name: '瘦身塑形' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=556eb6313b0d31b17a1c6ba4',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206120905_f3ELu.png',
+  name: '时尚街拍' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=54589217586df56fb172b4c5',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206120616_JFuEk.png',
+  name: '美食菜谱' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5451f506586df593cccf3f3b',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201602/14/20160214173638_LKuBH.jpeg',
+  name: '手工DIY' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=54599e1b586df50df83e0a87',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201602/14/20160214170314_2kRKG.jpeg',
+  name: '插画绘画' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=545899d9586df56fb059b344',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206120808_NrEWL.png',
+  name: '家居生活' }
+2018-06-26 18:10 +08:00: { target: 'duitang://www.duitang.com/blog/list/category/?id=5459a47b586df50df83e0c38',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206120833_WyVdQ.png',
+  name: '旅行' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5459a194586df50df73cfa58',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206121027_E8BdL.png',
+  name: '婚纱婚礼' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5459b62e586df50df83e0c3a',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206121050_P2jYm.png',
+  name: '萌宠' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=55670380586df543f2fb7642',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201602/14/20160214175455_5sHnF.jpeg',
+  name: '头像表情' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5459eb0f586df55f984a33d8',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206121136_zcHT4.png',
+  name: '壁纸' }
+2018-06-26 18:10 +08:00: { target: 'duitang://www.duitang.com/blog/list/category/?id=5567cfeb3b0d313bc965f18f',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201602/14/20160214154845_YhCrn.jpeg',
+  name: '美图摄影' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=54589f35586df57cb221afc4',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206121222_2SJZH.png',
+  name: '影音书' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=54598b1e586df50df73cf8eb',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206121327_ucFzt.png',
+  name: '文字句子' }
+{ target: 'duitang://www.duitang.com/blog/list/category/?id=5567040e3b0d312574e04a60',
+  icon_url: 'http://img4q.duitang.com/uploads/people/201612/06/20161206121346_rhSKt.png',
+  name: '设计' }
+2018-06-26 18:10 +08:00: [0mGET /api/user [32m200 [0m210.322 ms - 23[0m
+2018-06-26 18:16 +08:00: [0mGET /api/user [32m200 [0m225.424 ms - 23[0m
+2018-06-26 18:17 +08:00: [0mGET /api/user [36m304 [0m199.645 ms - -[0m
+2018-06-26 18:17 +08:00: [0mGET /api/user [36m304 [0m144.296 ms - -[0m
+2018-06-26 18:18 +08:00: [0mGET /api/user [36m304 [0m167.153 ms - -[0m
+2018-06-26 18:19 +08:00: [0mGET /api/user [36m304 [0m134.084 ms - -[0m
+2018-06-28 09:18 +08:00: [0mGET / [32m200 [0m18.801 ms - 20[0m
+2018-06-28 09:18 +08:00: [0mGET /favicon.ico [33m404 [0m475.785 ms - 1098[0m
+2018-06-28 09:54 +08:00: [0mGET / [32m200 [0m1.338 ms - 20[0m
+2018-06-28 09:54 +08:00: [0mGET /favicon.ico [33m404 [0m26.727 ms - 1098[0m
+2018-06-28 09:57 +08:00: [HPM] Proxy created: /api  ->  http://api.izuiyou.com
+2018-06-28 09:57 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-06-28 09:57 +08:00: [0mGET / [33m404 [0m320.094 ms - 1098[0m
+2018-06-28 09:57 +08:00: [0mGET /stylesheets/style.css [33m404 [0m10.223 ms - 1098[0m
+2018-06-28 09:57 +08:00: [0mGET /index [33m404 [0m11.615 ms - 1098[0m
+2018-06-28 09:57 +08:00: [0mGET /stylesheets/style.css [33m404 [0m10.262 ms - 1098[0m
+2018-06-28 09:58 +08:00: [0mGET /index [33m404 [0m21.016 ms - 1098[0m
+2018-06-28 09:58 +08:00: [0mGET /stylesheets/style.css [33m404 [0m8.609 ms - 1098[0m
+2018-06-28 09:58 +08:00: [0mGET / [33m404 [0m9.140 ms - 1098[0m
+2018-06-28 09:58 +08:00: [0mGET /stylesheets/style.css [33m404 [0m8.241 ms - 1098[0m
+2018-06-28 09:58 +08:00: [HPM] Proxy created: /api  ->  http://api.izuiyou.com
+2018-06-28 09:58 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-06-28 09:58 +08:00: [0mGET / [33m404 [0m912.443 ms - 1098[0m
+2018-06-28 09:58 +08:00: [0mGET /stylesheets/style.css [33m404 [0m9.512 ms - 1098[0m
+2018-06-28 09:59 +08:00: [0mGET / [32m200 [0m3.409 ms - 623[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m1.263 ms - 857[0m
+2018-06-28 09:59 +08:00: [0mGET /static/css/app.fed5b3fb84875f402cae4a6142189fc8.css [32m200 [0m1.272 ms - 4697[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.460 ms - 584844[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/app.3ab9a626db11578f5a97.js [32m200 [0m0.400 ms - 16177[0m
+2018-06-28 09:59 +08:00: [0mGET /static/css/app.fed5b3fb84875f402cae4a6142189fc8.css.map [32m200 [0m0.461 ms - 11680[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m2.529 ms - 3897[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m3.004 ms - 2406[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m2.057 ms - 3586[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m2.040 ms - 3090[0m
+[0mGET /static/img/message_tarbar.png [32m200 [0m1.956 ms - 2255[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/app.3ab9a626db11578f5a97.js.map [32m200 [0m0.427 ms - 79559[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m0.553 ms - 4972[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m0.398 ms - 2652252[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/mp4.png [32m200 [0m1.059 ms - 1328[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/gif.png [32m200 [0m1.041 ms - 1212[0m
+2018-06-28 09:59 +08:00: [0mGET / [32m200 [0m0.654 ms - 623[0m
+2018-06-28 09:59 +08:00: [0mGET /static/css/app.fed5b3fb84875f402cae4a6142189fc8.css [32m200 [0m0.669 ms - 4697[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.369 ms - 857[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/app.3ab9a626db11578f5a97.js [32m200 [0m1.249 ms - 16177[0m
+2018-06-28 09:59 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.828 ms - 584844[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.361 ms - 3897[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.693 ms - 3090[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.708 ms - 2406[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.349 ms - 2255[0m
+2018-06-28 09:59 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.378 ms - 3586[0m
+2018-06-28 09:59 +08:00: [0mGET /favicon.ico [33m404 [0m32.856 ms - 1098[0m
+2018-06-28 10:00 +08:00: [0mGET /favicon.ico [33m404 [0m10.039 ms - 1098[0m
+2018-06-28 10:00 +08:00: [0mGET / [36m304 [0m17.732 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/css/app.fed5b3fb84875f402cae4a6142189fc8.css [36m304 [0m0.306 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m0.737 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [36m304 [0m0.733 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/js/app.3ab9a626db11578f5a97.js [36m304 [0m0.680 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/img/loading_1.gif [36m304 [0m0.262 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/img/index_tarbar.png [36m304 [0m0.954 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/img/find_tarbar.png [36m304 [0m0.252 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/img/message_tarbar.png [36m304 [0m0.237 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /static/img/setting_tarbar.png [36m304 [0m0.247 ms - -[0m
+2018-06-28 10:00 +08:00: [0mGET /favicon.ico [33m404 [0m8.463 ms - 1098[0m
+2018-06-28 10:01 +08:00: [0mGET / [32m200 [0m0.392 ms - 623[0m
+2018-06-28 10:01 +08:00: [0mGET /static/css/app.fed5b3fb84875f402cae4a6142189fc8.css [32m200 [0m0.529 ms - 4697[0m
+2018-06-28 10:01 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.327 ms - 857[0m
+2018-06-28 10:01 +08:00: [0mGET /static/js/app.3ab9a626db11578f5a97.js [32m200 [0m0.802 ms - 16177[0m
+2018-06-28 10:01 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.773 ms - 584844[0m
+2018-06-28 10:01 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.485 ms - 2406[0m
+2018-06-28 10:01 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.325 ms - 3090[0m
+2018-06-28 10:01 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.521 ms - 2255[0m
+2018-06-28 10:01 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.594 ms - 3586[0m
+2018-06-28 10:01 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.358 ms - 3897[0m
+2018-06-28 10:01 +08:00: [0mGET /favicon.ico [33m404 [0m9.290 ms - 1098[0m
+2018-06-28 10:01 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.861 ms - 1212[0m
+2018-06-28 10:01 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.750 ms - 1328[0m
+2018-06-28 10:06 +08:00: [0mGET /index [33m404 [0m20.574 ms - 1098[0m
+2018-06-28 10:06 +08:00: [0mGET /stylesheets/style.css [33m404 [0m7.683 ms - 1098[0m
+2018-06-28 10:06 +08:00: [0mGET / [32m200 [0m0.607 ms - 623[0m
+2018-06-28 10:06 +08:00: [0mGET /static/css/app.badb9456ea9c110c4327da85a801670a.css [32m200 [0m0.419 ms - 4697[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.980 ms - 857[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/app.00d3cdcdcad25a3dfebb.js [32m200 [0m0.987 ms - 16301[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m1.109 ms - 584844[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.916 ms - 857[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.969 ms - 584844[0m
+2018-06-28 10:06 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.596 ms - 3897[0m
+2018-06-28 10:06 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.440 ms - 2406[0m
+2018-06-28 10:06 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.446 ms - 3090[0m
+2018-06-28 10:06 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.451 ms - 2255[0m
+2018-06-28 10:06 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.406 ms - 3586[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m0.430 ms - 4972[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/app.00d3cdcdcad25a3dfebb.js.map [32m200 [0m0.627 ms - 79822[0m
+2018-06-28 10:06 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m0.724 ms - 2652252[0m
+2018-06-28 10:06 +08:00: [0mGET /static/css/app.badb9456ea9c110c4327da85a801670a.css.map [32m200 [0m0.395 ms - 11680[0m
+2018-06-28 10:06 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.898 ms - 1328[0m
+2018-06-28 10:06 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.935 ms - 1212[0m
+2018-06-28 10:09 +08:00: [0mGET / [32m200 [0m0.531 ms - 623[0m
+2018-06-28 10:09 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css [32m200 [0m0.936 ms - 4697[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [32m200 [0m0.786 ms - 16335[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.797 ms - 857[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.863 ms - 584844[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.892 ms - 857[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.919 ms - 584844[0m
+2018-06-28 10:09 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.358 ms - 3897[0m
+2018-06-28 10:09 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.380 ms - 2406[0m
+2018-06-28 10:09 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.372 ms - 3090[0m
+2018-06-28 10:09 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.373 ms - 2255[0m
+2018-06-28 10:09 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.342 ms - 3586[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m0.408 ms - 4972[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js.map [32m200 [0m0.982 ms - 79821[0m
+2018-06-28 10:09 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m0.342 ms - 2652252[0m
+2018-06-28 10:09 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css.map [32m200 [0m0.540 ms - 11680[0m
+2018-06-28 10:09 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.676 ms - 1212[0m
+2018-06-28 10:09 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.752 ms - 1328[0m
+2018-06-28 10:13 +08:00: [0mGET / [36m304 [0m1.473 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css [36m304 [0m0.402 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m1.023 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [36m304 [0m0.772 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [36m304 [0m1.850 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m0.243 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [36m304 [0m0.490 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [36m304 [0m0.484 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css.map [36m304 [0m0.245 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/img/loading_1.gif [36m304 [0m0.296 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/img/index_tarbar.png [36m304 [0m0.251 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/img/find_tarbar.png [36m304 [0m0.244 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/img/message_tarbar.png [36m304 [0m0.255 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/img/setting_tarbar.png [36m304 [0m0.303 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [36m304 [0m0.246 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [36m304 [0m0.254 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js.map [36m304 [0m0.282 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/img/gif.png [36m304 [0m0.459 ms - -[0m
+2018-06-28 10:13 +08:00: [0mGET /static/img/mp4.png [36m304 [0m0.409 ms - -[0m
+2018-06-28 10:14 +08:00: [0mGET / [32m200 [0m13.654 ms - 623[0m
+2018-06-28 10:14 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css [32m200 [0m10.282 ms - 4697[0m
+2018-06-28 10:14 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [32m200 [0m1.036 ms - 16335[0m
+2018-06-28 10:14 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.519 ms - 857[0m
+2018-06-28 10:14 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m7.162 ms - 584844[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m1.677 ms - 3897[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.769 ms - 2406[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.699 ms - 3090[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m1.059 ms - 2255[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m1.187 ms - 3586[0m
+2018-06-28 10:14 +08:00: [0mGET /favicon.ico [33m404 [0m24.057 ms - 1098[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/mp4.png [32m200 [0m1.034 ms - 1328[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/gif.png [32m200 [0m1.601 ms - 1212[0m
+2018-06-28 10:14 +08:00: [0mGET / [32m200 [0m0.502 ms - 623[0m
+2018-06-28 10:14 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css [32m200 [0m0.322 ms - 4697[0m
+2018-06-28 10:14 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [32m200 [0m0.318 ms - 16335[0m
+2018-06-28 10:14 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.593 ms - 857[0m
+2018-06-28 10:14 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.583 ms - 584844[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.452 ms - 3897[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.383 ms - 2406[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.323 ms - 3090[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.315 ms - 2255[0m
+2018-06-28 10:14 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.903 ms - 3586[0m
+2018-06-28 10:14 +08:00: [0mGET /favicon.ico [33m404 [0m9.997 ms - 1098[0m
+2018-06-28 10:16 +08:00: [0mGET / [32m200 [0m15.299 ms - 623[0m
+2018-06-28 10:16 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css [32m200 [0m7.536 ms - 4697[0m
+2018-06-28 10:16 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.838 ms - 857[0m
+2018-06-28 10:16 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [32m200 [0m1.001 ms - 16335[0m
+2018-06-28 10:16 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m5.633 ms - 584844[0m
+2018-06-28 10:16 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.981 ms - 3897[0m
+2018-06-28 10:16 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.776 ms - 2406[0m
+2018-06-28 10:16 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m1.003 ms - 3090[0m
+2018-06-28 10:16 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m1.037 ms - 2255[0m
+2018-06-28 10:16 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m1.390 ms - 3586[0m
+2018-06-28 10:16 +08:00: [0mGET /favicon.ico [33m404 [0m21.238 ms - 1098[0m
+2018-06-28 10:16 +08:00: [0mGET /static/img/gif.png [32m200 [0m1.539 ms - 1212[0m
+2018-06-28 10:16 +08:00: [0mGET /static/img/mp4.png [32m200 [0m1.619 ms - 1328[0m
+2018-06-28 10:18 +08:00: [0mGET / [36m304 [0m0.369 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css [36m304 [0m0.398 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m0.563 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [36m304 [0m0.545 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [36m304 [0m0.498 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m0.624 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [36m304 [0m0.584 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js [36m304 [0m0.522 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/css/app.77edfb38a2c94a035e1133176e5efd5a.css.map [36m304 [0m0.256 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/img/loading_1.gif [36m304 [0m0.208 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/img/index_tarbar.png [36m304 [0m0.328 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/img/find_tarbar.png [36m304 [0m0.275 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/img/message_tarbar.png [36m304 [0m0.244 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/img/setting_tarbar.png [36m304 [0m0.198 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [36m304 [0m0.205 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [36m304 [0m0.201 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/js/app.f2f3fa508ab6dbddccf9.js.map [36m304 [0m0.150 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/img/gif.png [36m304 [0m0.441 ms - -[0m
+2018-06-28 10:18 +08:00: [0mGET /static/img/mp4.png [36m304 [0m0.412 ms - -[0m
+2018-06-28 10:19 +08:00: [0mGET / [32m200 [0m0.399 ms - 623[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/app.f0e10b6b0787e2d3a4c9.js [32m200 [0m1.343 ms - 16335[0m
+2018-06-28 10:19 +08:00: [0mGET /static/css/app.b489e257e053ec8b77df49302c8cc538.css [32m200 [0m3.784 ms - 4745[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m1.063 ms - 857[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m1.145 ms - 584844[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.693 ms - 857[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.727 ms - 584844[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m0.395 ms - 4972[0m
+2018-06-28 10:19 +08:00: [0mGET /static/css/app.b489e257e053ec8b77df49302c8cc538.css.map [32m200 [0m0.415 ms - 11789[0m
+2018-06-28 10:19 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.398 ms - 3897[0m
+2018-06-28 10:19 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.453 ms - 2406[0m
+2018-06-28 10:19 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.635 ms - 3090[0m
+2018-06-28 10:19 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.674 ms - 2255[0m
+2018-06-28 10:19 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.491 ms - 3586[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/app.f0e10b6b0787e2d3a4c9.js.map [32m200 [0m0.583 ms - 79863[0m
+2018-06-28 10:19 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m0.524 ms - 2652252[0m
+2018-06-28 10:19 +08:00: [0mGET /static/img/gif.png [32m200 [0m1.845 ms - 1212[0m
+2018-06-28 10:19 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.862 ms - 1328[0m
+2018-06-28 10:21 +08:00: [0mGET / [32m200 [0m0.370 ms - 623[0m
+2018-06-28 10:21 +08:00: [0mGET /static/css/app.e229b2805eb1b38226209629fdf36cb4.css [32m200 [0m2.120 ms - 4745[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/app.3f9848ea1de92fdd7d2a.js [32m200 [0m1.253 ms - 16310[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m1.074 ms - 857[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m1.193 ms - 584844[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.469 ms - 857[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m1.024 ms - 584844[0m
+2018-06-28 10:21 +08:00: [0mGET /static/css/app.e229b2805eb1b38226209629fdf36cb4.css.map [32m200 [0m0.432 ms - 11789[0m
+2018-06-28 10:21 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.364 ms - 3897[0m
+2018-06-28 10:21 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.420 ms - 2406[0m
+2018-06-28 10:21 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.485 ms - 3090[0m
+2018-06-28 10:21 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.669 ms - 2255[0m
+2018-06-28 10:21 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.664 ms - 3586[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m1.016 ms - 4972[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/app.3f9848ea1de92fdd7d2a.js.map [32m200 [0m0.700 ms - 79817[0m
+2018-06-28 10:21 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m0.599 ms - 2652252[0m
+2018-06-28 10:21 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.798 ms - 1328[0m
+2018-06-28 10:21 +08:00: [0mGET /static/img/gif.png [32m200 [0m1.462 ms - 1212[0m
+2018-06-28 10:24 +08:00: [0mGET / [32m200 [0m0.306 ms - 623[0m
+2018-06-28 10:24 +08:00: [0mGET /static/css/app.78fce3c75a98b400b9dfa9818f8562bd.css [32m200 [0m0.332 ms - 4745[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.253 ms - 857[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.264 ms - 584844[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/app.26d0d5c4a1c262a177df.js [32m200 [0m1.025 ms - 16312[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.671 ms - 857[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.690 ms - 584844[0m
+2018-06-28 10:24 +08:00: [0mGET /static/css/app.78fce3c75a98b400b9dfa9818f8562bd.css.map [32m200 [0m0.489 ms - 11789[0m
+2018-06-28 10:24 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.362 ms - 3897[0m
+2018-06-28 10:24 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.507 ms - 2406[0m
+2018-06-28 10:24 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.347 ms - 3090[0m
+2018-06-28 10:24 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.373 ms - 2255[0m
+2018-06-28 10:24 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.379 ms - 3586[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m0.578 ms - 4972[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/app.26d0d5c4a1c262a177df.js.map [32m200 [0m0.617 ms - 79822[0m
+2018-06-28 10:24 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m0.655 ms - 2652252[0m
+2018-06-28 10:24 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.666 ms - 1328[0m
+2018-06-28 10:24 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.665 ms - 1212[0m
+2018-06-28 11:07 +08:00: [0mGET / [32m200 [0m0.650 ms - 623[0m
+2018-06-28 11:07 +08:00: [0mGET /static/css/app.7d48a9015239c32eb441621f361d6d5b.css [32m200 [0m0.334 ms - 4971[0m
+2018-06-28 11:07 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.521 ms - 857[0m
+2018-06-28 11:07 +08:00: [0mGET /static/js/app.2f6d654bdf18629b268a.js [32m200 [0m0.424 ms - 16715[0m
+2018-06-28 11:07 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m1.031 ms - 584844[0m
+2018-06-28 11:07 +08:00: [0mGET / [36m304 [0m0.228 ms - -[0m
+2018-06-28 11:07 +08:00: [0mGET /static/css/app.7d48a9015239c32eb441621f361d6d5b.css [36m304 [0m0.165 ms - -[0m
+2018-06-28 11:07 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m0.156 ms - -[0m
+2018-06-28 11:07 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [36m304 [0m0.156 ms - -[0m
+2018-06-28 11:07 +08:00: [0mGET /static/js/app.2f6d654bdf18629b268a.js [36m304 [0m0.164 ms - -[0m
+2018-06-28 11:08 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.322 ms - 3897[0m
+2018-06-28 11:08 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.287 ms - 2406[0m
+2018-06-28 11:08 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.822 ms - 3090[0m
+2018-06-28 11:08 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.366 ms - 2255[0m
+2018-06-28 11:08 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.448 ms - 3586[0m
+2018-06-28 11:08 +08:00: [0mGET /favicon.ico [33m404 [0m5.515 ms - 1098[0m
+2018-06-28 11:08 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.422 ms - 1212[0m
+2018-06-28 11:08 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.371 ms - 1328[0m
+2018-06-28 11:09 +08:00: [0mGET / [32m200 [0m0.308 ms - 623[0m
+2018-06-28 11:09 +08:00: [0mGET /static/css/app.7d48a9015239c32eb441621f361d6d5b.css [32m200 [0m0.406 ms - 4971[0m
+2018-06-28 11:09 +08:00: [0mGET /static/js/app.2f6d654bdf18629b268a.js [32m200 [0m0.911 ms - 16715[0m
+2018-06-28 11:09 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m1.036 ms - 857[0m
+2018-06-28 11:09 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m0.965 ms - 584844[0m
+2018-06-28 11:09 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m0.595 ms - 3897[0m
+2018-06-28 11:09 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m0.616 ms - 2406[0m
+2018-06-28 11:09 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m0.363 ms - 3090[0m
+2018-06-28 11:09 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m0.394 ms - 2255[0m
+2018-06-28 11:09 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m0.261 ms - 3586[0m
+2018-06-28 11:09 +08:00: [0mGET /favicon.ico [33m404 [0m5.254 ms - 1098[0m
+2018-06-28 11:09 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.742 ms - 1212[0m
+2018-06-28 11:09 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.702 ms - 1328[0m
+2018-06-28 11:10 +08:00: [0mGET / [32m200 [0m0.308 ms - 623[0m
+2018-06-28 11:10 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m0.233 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/css/app.7d48a9015239c32eb441621f361d6d5b.css [36m304 [0m0.259 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [36m304 [0m0.396 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/js/app.2f6d654bdf18629b268a.js [36m304 [0m0.410 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/img/loading_1.gif [36m304 [0m0.194 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/img/index_tarbar.png [36m304 [0m0.144 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/img/find_tarbar.png [36m304 [0m0.155 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/img/message_tarbar.png [36m304 [0m0.161 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/img/setting_tarbar.png [36m304 [0m0.203 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /favicon.ico [33m404 [0m4.884 ms - 1098[0m
+2018-06-28 11:10 +08:00: [0mGET /static/img/mp4.png [36m304 [0m0.338 ms - -[0m
+2018-06-28 11:10 +08:00: [0mGET /static/img/gif.png [36m304 [0m0.314 ms - -[0m
+2018-06-28 11:27 +08:00: [0mGET / [32m200 [0m0.364 ms - 623[0m
+2018-06-28 11:27 +08:00: [0mGET /static/css/app.7d48a9015239c32eb441621f361d6d5b.css [32m200 [0m1.068 ms - 4971[0m
+2018-06-28 11:27 +08:00: [0mGET /static/js/app.2f6d654bdf18629b268a.js [32m200 [0m1.262 ms - 16715[0m
+2018-06-28 11:27 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m0.933 ms - 857[0m
+2018-06-28 11:27 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js [32m200 [0m1.022 ms - 584844[0m
+2018-06-28 11:27 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m0.374 ms - 4972[0m
+2018-06-28 11:27 +08:00: [0mGET /static/css/app.7d48a9015239c32eb441621f361d6d5b.css.map [32m200 [0m0.360 ms - 12225[0m
+2018-06-28 11:27 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m2.503 ms - 3897[0m
+2018-06-28 11:27 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m2.596 ms - 2406[0m
+2018-06-28 11:27 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m2.697 ms - 2255[0m
+2018-06-28 11:27 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m1.407 ms - 3586[0m
+2018-06-28 11:27 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m2.733 ms - 3090[0m
+2018-06-28 11:27 +08:00: [0mGET /static/js/app.2f6d654bdf18629b268a.js.map [32m200 [0m0.391 ms - 81287[0m
+2018-06-28 11:27 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m1.482 ms - 2652252[0m
+2018-06-28 11:27 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.633 ms - 1328[0m
+2018-06-28 11:27 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.713 ms - 1212[0m

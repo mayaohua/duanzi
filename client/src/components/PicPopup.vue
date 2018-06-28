@@ -2,14 +2,15 @@
 	<div class="picpopup-wrap" v-show="obj.show">
         <div class="slides">
         	<div class="slide">
-        		<img  v-show="!loadshow && obj.type=='img'" @load="loadimg()" :src="obj.path.img">
-	        	<video x5-playsinline="" playsinline="" webkit-playsinline="" ref="video" v-show="!loadshow && obj.type=='video'" @canplay="loadimg()" controls="controls"   :src="obj.path.video" :poster="obj.path.img">
+        		<img ref="videoimg" v-show="!loadshow" @load="loadimg()" :src="obj.path.img">
+        		<span @click="videopaly()" v-show="obj.type=='video'"></span>
+	        	<video webkit-playsinline="true" x-webkit-airplay="true"  playsinline="true"  ref="video"  @canplay="loadimg()" controls="controls"  :src="obj.path.video" :poster="obj.path.img" v-show="palying">
 	        	</video>
 	        	<!-- autoplay="false" -->
 	        	<img class="load" v-show="loadshow" :src="loadingpath">
         	</div>
         </div>
-        <span @click="close()">×</span>
+        <span ref="close" @click="close()">×</span>
      </div>
 </template>
 <script>
@@ -19,6 +20,7 @@ export default {
 		return {
 			loadshow:true,
 			loadingpath : '/static/img/loading_1.gif',
+			palying:false,
 		}
 	},
 	props:{
@@ -40,14 +42,34 @@ export default {
 				this.$refs.video.pause();
 			}
 			this.obj.show = false;
+		},
+		videopaly(){
+			this.$refs.video.play();
 		}
 	},
 	watch:{
 		'obj.path.img'(){
 			this.loadshow = true;
+			//视频监听
+			let vue = this;
+		    this.$refs.video.addEventListener('play',function(){
+		    	vue.palying = true;
+		    	vue.$refs.close.style.display="none";
+			});
+			this.$refs.video.addEventListener('pause',function(){
+				vue.palying = false;
+				vue.$refs.close.style.display="block";
+			});
 		}
 	},
 	beforeUpdate(){
+	},
+	updated(){
+		var agent = navigator.userAgent.toLowerCase();
+	    if (agent.match(/MicroMessenger/i) != "micromessenger") {
+	        this.$refs.video.setAttribute('x5-video-player-type','h5')
+	        this.$refs.video.setAttribute('x5-video-player-fullscreen',true)
+	    }
 	}
 }
 </script>
@@ -63,14 +85,23 @@ export default {
 	overflow: auto;
 }
 .picpopup-wrap span{
+	display: block;
+	text-align: center;
 	position: absolute;
 	/*top:50px;*/
 	right:0px;
 	color:white;
 	font-size: 30px;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
 	display: block;
-	padding: 20px;
+	padding: 10px;
 	top:0;
+	background: -webkit-linear-gradient(left top, red , blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right, red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, red, blue); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to bottom right, red , blue);
 }
 .picpopup-wrap div.slides{
 	position: relative;
@@ -96,6 +127,7 @@ export default {
 	top: 50%;
     left: 0;
     transform: translateY(-50%);
+    object-fit: fill;
 }
 .picpopup-wrap .slide img.load{
 	width: 50px;
@@ -104,5 +136,22 @@ export default {
 .picpopup-wrap .slide img.mp4{
 	width: 100px;
 	height: 100px;
+}
+.picpopup-wrap .slide span{
+	position: absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    left:0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    margin: auto;
+    background: url(/static/img/mp4.png) no-repeat 50%;
+    background-size: 100% 100%;
 }
 </style>

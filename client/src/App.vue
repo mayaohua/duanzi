@@ -1,6 +1,6 @@
 <template>
   <div>
-     <headerComponent :navTitle = "navTitle"></headerComponent>
+     <!-- <headerComponent :navTitle = "navTitle"></headerComponent> -->
 	    <keep-alive >
           <router-view v-if="$route.meta.keepAlive"></router-view>
       </keep-alive>
@@ -23,9 +23,6 @@ export default {
     headerComponent,footerComponent
   },
   methods:{
-    handleClick(){
-      this.$toast('Hello world!')
-    },
     getNavTitle(text){
     	this.navTitle = text;
     }
@@ -48,7 +45,7 @@ export default {
     position: absolute;
     overflow-x: hidden;
     box-sizing: border-box;
-    top:40px;
+    top:0px;
     bottom:55px;
     width: 100%;
   }

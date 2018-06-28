@@ -6,14 +6,15 @@ import router from './router'
 import axios from 'axios'
 import Mint from 'mint-ui';
 import base from './base.vue.js';
-import JQuery from 'jquery';
+import VueLazyload from 'vue-lazyload'
 
 
-import VueVideoPlayer from 'vue-video-player'
-
-Vue.use(VueVideoPlayer)
-
-window.$ = JQuery;
+Vue.use(VueLazyload, {
+	preLoad: 1.3,
+	error: '/static/img/img_error.png',
+	loading: '/static/img/loading_4.svg',
+	attempt: 1
+})
 Vue.use(base);
 Vue.use(Mint);
 Vue.config.productionTip = false

@@ -28,22 +28,22 @@ export default {
       navTitle:'',
       tabbarArr:[
       	{
-      		'tabname':'最右',
+      		'tabname':'P图',
       		'tabid':'/index',
       		'tabimg':'/static/img/index_tarbar.png'
       	},
       	{
-      		'tabname':'发现',
+      		'tabname':'声控',
       		'tabid':'/find',
       		'tabimg':'/static/img/find_tarbar.png'
       	}
       	,{
-      		'tabname':'消息',
+      		'tabname':'视频',
       		'tabid':'/message',
       		'tabimg':'/static/img/message_tarbar.png'
       	}
       	,{
-      		'tabname':'设置',
+      		'tabname':'新帖',
       		'tabid':'/setting',
       		'tabimg':'/static/img/setting_tarbar.png'
       	}
@@ -69,8 +69,8 @@ export default {
 
 <style >
 *{
-      margin:0;
-      padding:0;
+    margin:0;
+    padding:0;
 }
 .mint-tabbar{
 	position: fixed;

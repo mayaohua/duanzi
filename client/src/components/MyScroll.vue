@@ -8,14 +8,6 @@
             </div>
             <div class="loading-pos" :class="{loadingPosHide:!loadingStatus.showIcon && !loadingStatus.status}">
                 <div v-show="loadingStatus.showIcon" class="loading-container">
-                    <!-- <div class="cube">
-                        <div class="side side1"></div>
-                        <div class="side side2"></div>
-                        <div class="side side3"></div>
-                        <div class="side side4"></div>
-                        <div class="side side5"></div>
-                        <div class="side side6"></div>
-                    </div> -->
                     <mt-spinner color="rgb(38, 162, 255)" style="text-align: center;" type="triple-bounce"></mt-spinner>
                 </div>
                 <span class="loading-connecting" >{{loadingStatus.status}}</span>
@@ -225,7 +217,7 @@
       scrollToElement() {
           // 代理better-scroll的scrollToElement方法
           this.scroll && this.scroll.scrollToElement.apply(this.scroll, arguments);
-	  }
+      },
     },
     watch: {
         // 监听数据的变化，延时refreshDelay时间后调用refresh方法重新计算，保证滚动效果正常
