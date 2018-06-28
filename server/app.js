@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 app.use(proxy('/api', {
-	target: 'http://api.izuiyou.com',
+	target: 'https://api.izuiyou.com',
 	changeOrigin: true,
 	pathRewrite: {
 		'^/api': ''
