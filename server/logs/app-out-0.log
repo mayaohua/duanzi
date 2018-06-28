@@ -494,3 +494,23 @@
 2018-06-28 11:27 +08:00: [0mGET /static/js/vendor.2d05158fe4053b939f12.js.map [32m200 [0m1.482 ms - 2652252[0m
 2018-06-28 11:27 +08:00: [0mGET /static/img/mp4.png [32m200 [0m0.633 ms - 1328[0m
 2018-06-28 11:27 +08:00: [0mGET /static/img/gif.png [32m200 [0m0.713 ms - 1212[0m
+2018-06-28 17:51 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-06-28 17:51 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-06-28 17:52 +08:00: [0mGET / [32m200 [0m6.364 ms - 623[0m
+2018-06-28 17:52 +08:00: [0mGET /static/css/app.ecab7e822c4e3cabd946729de458848a.css [32m200 [0m10.024 ms - 11511[0m
+2018-06-28 17:52 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m9.265 ms - 857[0m
+2018-06-28 17:52 +08:00: [0mGET /static/js/app.098a2b4d2e7901498a5c.js [32m200 [0m8.913 ms - 17968[0m
+2018-06-28 17:52 +08:00: [0mGET /static/js/vendor.470674a39f209273f4c9.js [32m200 [0m16.886 ms - 293609[0m
+2018-06-28 17:52 +08:00: [0mGET /static/css/app.ecab7e822c4e3cabd946729de458848a.css.map [32m200 [0m1.079 ms - 24855[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m3.063 ms - 3897[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m2.183 ms - 3090[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m3.426 ms - 2406[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m1.494 ms - 2255[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m1.554 ms - 3586[0m
+2018-06-28 17:52 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js.map [32m200 [0m1.112 ms - 4972[0m
+2018-06-28 17:52 +08:00: [0mGET /static/js/app.098a2b4d2e7901498a5c.js.map [32m200 [0m0.893 ms - 98087[0m
+2018-06-28 17:52 +08:00: [0mGET /favicon.ico [33m404 [0m523.392 ms - 1098[0m
+2018-06-28 17:52 +08:00: [0mGET /static/js/vendor.470674a39f209273f4c9.js.map [32m200 [0m587.972 ms - 1198843[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/mp4.png [32m200 [0m10.493 ms - 1328[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/gif.png [32m200 [0m10.688 ms - 1212[0m
+2018-06-28 17:52 +08:00: [0mGET /static/img/loading_4.svg [32m200 [0m1.385 ms - 538[0m

@@ -4,6 +4,7 @@ import Index from '@/views/Index'
 import Find from '@/views/Find'
 import Setting from '@/views/Setting'
 import Message from '@/views/Message'
+import NotFoundComponent from '@/views/NotFound'
 Vue.use(Router)
 
 export default new Router({
@@ -46,5 +47,8 @@ export default new Router({
 			title: 'Message',
 			keepAlive: true,
 		}
+	}, {
+		path: '*',
+		component: NotFoundComponent
 	}],
 })
