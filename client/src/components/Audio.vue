@@ -16,6 +16,7 @@ export default {
 			video_data:{
 				time:0,
 				playing : false,
+				loaded: false,
 			}
 		}
 	},
@@ -31,54 +32,66 @@ export default {
 	},
 	methods:{
 		audioPlay:function(){
-			if(this.video_data.playing){
-				this.obj.pause();
+			if(this.obj.src){
+				if(this.video_data.playing){
+					this.obj.pause();
+				}else{
+					this.obj.play();
+				}
 			}else{
-				this.obj.play();
+				this.obj = new Audio(this.data.url);
 			}
     	}
 	},
 	created(){
 		this.video_data.time  =  this.data.dur;
-		this.obj = new Audio(this.data.url);
 	},
 	mounted(){
-		var vue = this;
-	    vue.obj.addEventListener('play', function(e){
-	    	vue.video_data.playing = true;
-	    	//告知父级当前音频正在播放
-	    	vue.$emit('thisurl',vue.data.url)
-	    });
-	    vue.obj.addEventListener('timeupdate', function(e){
-	    	//console.log('播放中');
-	    	window.timeInter = setInterval(function(){
-	        	vue.video_data.time = parseInt(vue.obj.duration) - parseInt(vue.obj.currentTime);
-	        	vue.video_data.time == 0 && (vue.video_data.time = parseInt(vue.obj.duration))
-	      	});
-	    });
-	    vue.obj.addEventListener('pause', function(e){
-	    	//console.log('暂停');
-	    	window.clearInterval(window.timeInter);
-	    	vue.video_data.playing = false;
-	    });
-	    vue.obj.addEventListener('ended', function(e){
-	    	//console.log('播放完毕');
-	    	window.clearInterval(window.timeInter,()=>{
-				vue.video_data = {
-					'time' : parseInt(vue.obj.duration),
-	    			'playing' : false
-				}
-	    	});
-	     },false);
-	    vue.obj.addEventListener('loadeddata', function(e){
-	    	//console.log('加载数据');
-	    	vue.video_data.time = parseInt(vue.obj.duration);
-	    	vue.video_data.playing = false;
-	    });
+		
 	},
 	watch:{
 		'whoplay'(){
-			(this.data.url != this.whoplay) && this.obj.load()
+			if(this.data.url != this.whoplay){
+				if(this.obj.src){this.obj.load()}
+			}
+		},
+		'obj'(){
+			var vue = this;
+		    vue.obj.addEventListener('play', function(e){
+		    	vue.video_data.playing = true;
+		    	//告知父级当前音频正在播放
+		    	vue.$emit('thisurl',vue.data.url)
+		    });
+		    vue.obj.addEventListener('timeupdate', function(e){
+		    	//console.log('播放中');
+		    	window.timeInter = setInterval(function(){
+		        	vue.video_data.time = parseInt(vue.obj.duration) - parseInt(vue.obj.currentTime);
+		        	vue.video_data.time == 0 && (vue.video_data.time = parseInt(vue.obj.duration))
+		      	});
+		    });
+		    vue.obj.addEventListener('pause', function(e){
+		    	//console.log('暂停');
+		    	window.clearInterval(window.timeInter);
+		    	vue.video_data.playing = false;
+		    });
+		    vue.obj.addEventListener('ended', function(e){
+		    	//console.log('播放完毕');
+		    	window.clearInterval(window.timeInter,()=>{
+					vue.video_data = {
+						'time' : parseInt(vue.obj.duration),
+		    			'playing' : false
+					}
+		    	});
+		     },false);
+		    vue.obj.addEventListener('loadeddata', function(e){
+		    	//console.log('加载数据');
+		    	vue.video_data.time = parseInt(vue.obj.duration);
+		    	vue.video_data.playing = false;
+		    	if(vue.video_data.loaded == false){
+		    		vue.obj.play();
+		    		vue.video_data.loaded = true;
+		    	}
+		    });
 		}
 	}
 }
