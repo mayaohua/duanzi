@@ -172,7 +172,7 @@ export default {
           vue.loadingMore = false;
           vue.pullup = true;
         });
-      },2500)
+      },1500)
     },
     loadTop() {
         // 回到顶部
@@ -189,7 +189,7 @@ export default {
               this.pulldown = true;
             },1000);
           });
-        },2500)
+        },1500)
     },
     showPicPopup(img,item){
       this.picPopup.show = true;
@@ -213,7 +213,7 @@ export default {
     this.getDataList(()=>{
       this.loadingStatus=this.loadingStatusArr[3];
     });
-   },2500)
+   },1500)
   },
   //   解除keep-alive的缓存
   beforeRouteEnter: (to, from, next) => {
