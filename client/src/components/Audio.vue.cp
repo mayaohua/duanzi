@@ -28,29 +28,6 @@ export default {
 	methods:{
 		audioPlay:function(){
 			this.$emit('play',this.videoData);
-	      //播放音乐
-	      
-	      // if(this.videoData.url == this.audio.audio_file){
-	        // if(this.audio.audio_palying){
-	        //   this.audio.obj.pause();
-	        //   window.clearInterval(timeInter);
-	        // }else{
-	        //   this.audio.obj.play();
-	        //   //开启计时器
-	        //   var vue = this;
-	        //   window.timeInter = setInterval(function(){
-	        //     vue.audio.time = parseInt(vue.audio.obj.duration) - parseInt(vue.audio.obj.currentTime);
-	        //   });
-	        // }
-	        // this.audio.audio_palying = !this.audio.audio_palying;
-	      // }
-	      // else{
-	      //   //判断是否在播放其它的如果播放则暂停
-	      //   if(this.audio.audio_file != '' && !this.audio.obj.paused){
-	      //      this.audio.obj.pause();
-	      //   }
-	        
-	      // }
     	}
 	},
 	watch:{

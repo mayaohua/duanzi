@@ -170,7 +170,6 @@ export default {
       let vue = this;
       setTimeout(()=>{
         vue.getDataList((code)=>{
-          
           vue.pullup = true;
         });
       },1500)
