@@ -15,7 +15,7 @@
         </div>
         <slot></slot>
         <div>
-        	<mt-spinner v-show="loadingMore" color="rgb(38, 162, 255)"  style="text-align: center;position: relative;top:-40px;" type="triple-bounce"></mt-spinner>
+        	<mt-spinner v-show="loadingMore" color="rgb(38, 162, 255)"  style="text-align: center;" type="triple-bounce"></mt-spinner>
         </div>
     </div>
 </div>

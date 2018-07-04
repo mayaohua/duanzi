@@ -119,6 +119,7 @@ export default {
                 message: '到底啦^_^',
                 position: 'bottom'
               });
+              vue.loadingMore = false;
               return ;
             }
             vue.data.list = vue.data.list.concat(response.data.data.list)
@@ -133,6 +134,7 @@ export default {
           });
           console.log(error);
         }
+        vue.loadingMore = true;
         callback(response.data.ret);
       }).catch((error)=>{
           vue.more = false;
@@ -166,15 +168,15 @@ export default {
       this.pullup = false;
       this.loading = true;
       let vue = this;
-      this.loadingMore = true;
       setTimeout(()=>{
         vue.getDataList((code)=>{
-          vue.loadingMore = false;
+          
           vue.pullup = true;
         });
       },1500)
     },
     loadTop() {
+        this.loadingMore = false;
         // 回到顶部
         this.pulldown = false;
         // 加载更多数据
@@ -187,6 +189,7 @@ export default {
             setTimeout(() => {
               this.loadingStatus = this.loadingStatusArr[3];
               this.pulldown = true;
+              
             },1000);
           });
         },1500)
