@@ -5,6 +5,8 @@ import Find from '@/views/Find'
 import Setting from '@/views/Setting'
 import Message from '@/views/Message'
 import NotFoundComponent from '@/views/NotFound'
+import Test from '@/views/Test'
+
 Vue.use(Router)
 
 export default new Router({
@@ -45,6 +47,14 @@ export default new Router({
 		component: Message,
 		meta: {
 			title: 'Message',
+			keepAlive: true,
+		}
+	}, {
+		path: '/test',
+		name: 'Test',
+		component: Test,
+		meta: {
+			title: 'Test',
 			keepAlive: true,
 		}
 	}, {

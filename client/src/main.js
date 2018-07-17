@@ -8,7 +8,10 @@ import Mint from 'mint-ui';
 import base from './base.vue.js';
 import VueLazyload from 'vue-lazyload'
 
-
+import vuescroll from 'vuescroll';
+// 注意： 从4.6.6开始， 你需要引入 .css 文件了
+import 'vuescroll/dist/vuescroll.css';
+Vue.use(vuescroll);
 Vue.use(VueLazyload, {
 	preLoad: 1.3,
 	error: '/static/img/img_error.png',

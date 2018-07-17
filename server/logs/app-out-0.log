@@ -514,3 +514,408 @@
 2018-06-28 17:52 +08:00: [0mGET /static/img/mp4.png [32m200 [0m10.493 ms - 1328[0m
 2018-06-28 17:52 +08:00: [0mGET /static/img/gif.png [32m200 [0m10.688 ms - 1212[0m
 2018-06-28 17:52 +08:00: [0mGET /static/img/loading_4.svg [32m200 [0m1.385 ms - 538[0m
+2018-07-17 14:54 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 14:54 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 14:54 +08:00: [0mGET / [32m200 [0m11.569 ms - 623[0m
+2018-07-17 14:54 +08:00: [0mGET /static/css/app.ecab7e822c4e3cabd946729de458848a.css [32m200 [0m9.880 ms - 11511[0m
+2018-07-17 14:54 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [32m200 [0m8.764 ms - 857[0m
+2018-07-17 14:54 +08:00: [0mGET /static/js/app.098a2b4d2e7901498a5c.js [32m200 [0m8.272 ms - 17968[0m
+2018-07-17 14:54 +08:00: [0mGET /static/js/vendor.470674a39f209273f4c9.js [32m200 [0m16.323 ms - 293609[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/index_tarbar.png [32m200 [0m2.069 ms - 2406[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/message_tarbar.png [32m200 [0m2.047 ms - 2255[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/loading_1.gif [32m200 [0m2.037 ms - 3897[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/find_tarbar.png [32m200 [0m1.873 ms - 3090[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/setting_tarbar.png [32m200 [0m1.619 ms - 3586[0m
+2018-07-17 14:54 +08:00: [0mGET /favicon.ico [33m404 [0m352.710 ms - 1098[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/gif.png [32m200 [0m1.512 ms - 1212[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/mp4.png [32m200 [0m2.796 ms - 1328[0m
+2018-07-17 14:54 +08:00: [0mGET /static/img/loading_4.svg [32m200 [0m1.179 ms - 538[0m
+2018-07-17 14:55 +08:00: [0mGET /wx [33m404 [0m32.212 ms - 1098[0m
+2018-07-17 14:55 +08:00: [0mGET /stylesheets/style.css [33m404 [0m10.111 ms - 1098[0m
+2018-07-17 14:56 +08:00: [0mGET /wx [33m404 [0m23.270 ms - 1098[0m
+2018-07-17 14:56 +08:00: [0mGET /stylesheets/style.css [33m404 [0m7.646 ms - 1098[0m
+2018-07-17 14:56 +08:00: [0mGET /wx [33m404 [0m7.715 ms - 1098[0m
+2018-07-17 14:56 +08:00: [0mGET /stylesheets/style.css [33m404 [0m8.412 ms - 1098[0m
+2018-07-17 14:58 +08:00: [0mGET /wx [33m404 [0m6.508 ms - 1098[0m
+2018-07-17 14:58 +08:00: [0mGET /stylesheets/style.css [33m404 [0m7.292 ms - 1098[0m
+2018-07-17 14:58 +08:00: [0mGET /wx [33m404 [0m6.047 ms - 1098[0m
+2018-07-17 14:58 +08:00: [0mGET /stylesheets/style.css [33m404 [0m6.272 ms - 1098[0m
+2018-07-17 14:59 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 14:59 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 14:59 +08:00: [0mGET /wx [32m200 [0m2.542 ms - 11[0m
+2018-07-17 14:59 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 14:59 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:00 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:00 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:00 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:00 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:00 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:00 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:01 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:01 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:02 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:02 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:03 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:03 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:04 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:04 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:04 +08:00: [0mGET /wx [33m404 [0m346.273 ms - 1098[0m
+2018-07-17 15:04 +08:00: [0mGET /stylesheets/style.css [33m404 [0m8.796 ms - 1098[0m
+2018-07-17 15:04 +08:00: [0mGET / [32m200 [0m18.056 ms - 623[0m
+2018-07-17 15:04 +08:00: [0mGET /static/css/app.ecab7e822c4e3cabd946729de458848a.css [36m304 [0m16.655 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/js/vendor.470674a39f209273f4c9.js [36m304 [0m0.845 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/js/app.098a2b4d2e7901498a5c.js [36m304 [0m0.809 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/js/manifest.2ae2e69a05c33dfc65f8.js [36m304 [0m0.670 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/img/loading_1.gif [36m304 [0m0.261 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/img/find_tarbar.png [36m304 [0m1.108 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/img/index_tarbar.png [36m304 [0m1.214 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/img/setting_tarbar.png [36m304 [0m0.791 ms - -[0m
+2018-07-17 15:04 +08:00: [0mGET /static/img/message_tarbar.png [36m304 [0m1.293 ms - -[0m
+2018-07-17 15:05 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:05 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:05 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:05 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:05 +08:00: [0mGET /wx [32m200 [0m2.399 ms - 11[0m
+2018-07-17 15:05 +08:00: [0mGET /wx%EF%BC%8Fuser [33m404 [0m187.453 ms - 1098[0m
+2018-07-17 15:05 +08:00: [0mGET /stylesheets/style.css [33m404 [0m9.667 ms - 1098[0m
+2018-07-17 15:05 +08:00: [0mGET /wx/user [32m200 [0m162.544 ms - 23[0m
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: error
+2018-07-17 15:05 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:05 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:05 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:05 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:05 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:05 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:05 +08:00: [0mGET /wx/tk [33m404 [0m152.588 ms - 1098[0m
+2018-07-17 15:05 +08:00: [0mGET /stylesheets/style.css [33m404 [0m10.043 ms - 1098[0m
+2018-07-17 15:06 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:06 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:06 +08:00: [0mGET /wx/tk [32m200 [0m2.023 ms - 2[0m
+2018-07-17 15:06 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:06 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:06 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:06 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:07 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:07 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:08 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:08 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:08 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:08 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:08 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:08 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:08 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:08 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:08 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:08 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:09 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:09 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:10 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:10 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:11 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:11 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:11 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:11 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:11 +08:00: [0mGET /wx/tk [33m404 [0m157.951 ms - 1098[0m
+2018-07-17 15:11 +08:00: [0mGET /stylesheets/style.css [33m404 [0m9.901 ms - 1098[0m
+2018-07-17 15:11 +08:00: [0mGET /wx/tk/tj [32m200 [0m1.000 ms - 17[0m
+2018-07-17 15:11 +08:00: [0mGET /wx/tk/tj [36m304 [0m0.460 ms - -[0m
+2018-07-17 15:11 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:11 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""
+2018-07-17 15:11 +08:00: [0mGET /wx/tk/tj [32m200 [0m90.342 ms - 9307[0m
+2018-07-17 15:11 +08:00: [0mGET /wx/tk [32m200 [0m0.457 ms - 17[0m
+2018-07-17 15:11 +08:00: [0mGET /wx/tk/tj [36m304 [0m28.609 ms - -[0m
+2018-07-17 15:12 +08:00: [HPM] Proxy created: /api  ->  https://api.izuiyou.com
+2018-07-17 15:12 +08:00: [HPM] Proxy rewrite rule created: "^/api" ~> ""

@@ -121,7 +121,8 @@
       // 保证在DOM渲染完毕后初始化better-scroll
       setTimeout(() => {
         this._initScroll()
-      }, 20)
+        console.log(123)
+      }, 50)
     },
     methods: {
       _initScroll() {
