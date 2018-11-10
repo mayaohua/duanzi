@@ -120,9 +120,8 @@
     mounted() {
       // 保证在DOM渲染完毕后初始化better-scroll
       setTimeout(() => {
-        this._initScroll()
-        console.log(123)
-      }, 50)
+        this._initScroll();
+      }, 50);
     },
     methods: {
       _initScroll() {
@@ -156,19 +155,13 @@
                         }
                     }
                 }
-                if (this.pullup) {
-
-                }
             })
         }
         // 是否派发滚动到底部事件，用于上拉加载
         if (this.pullup) {
             this.scroll.on('scrollEnd', () => {
-            	if(!this.pullup){
-                	return ;
-                }
                 // 滚动到底部
-                if (this.scroll.y <= (this.scroll.maxScrollY + 50)) {
+                if (this.scroll.y <= (this.scroll.maxScrollY)) {
                     this.$emit('scrollToEnd');
                 }
             });
@@ -177,18 +170,17 @@
         if (this.pulldown) {
             this.scroll.on('touchEnd', (pos) => {
                 // 下拉动作
-                if(!this.pulldown){
-                	return ;
-                }
-                if (pos.y > 50) {
-                    setTimeout(() => {
-                        // 重置提示信息
-                        this.pulldownTip = {
-                            text: '下拉刷新',     // 松开立即刷新
-                            rotate: ''    // icon-rotate
-                        }
-                    },600);
-                    this.$emit('scrollToStart');
+                if(this.pulldown){
+                    if (pos.y > 50) {
+                        setTimeout(() => {
+                            // 重置提示信息
+                            this.pulldownTip = {
+                                text: '下拉刷新',     // 松开立即刷新
+                                rotate: ''    // icon-rotate
+                            }
+                        },600);
+                        this.$emit('scrollToStart');
+                    }
                 }
             });
         }
@@ -200,7 +192,7 @@
         }
       },
       disable() {
-          // 代理better-scroll的disable方法
+          // 代理better-scroll的disable方法 huobiniuniu235
           this.scroll && this.scroll.disable();
       },
       enable() {

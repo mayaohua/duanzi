@@ -7,9 +7,7 @@
    :pulldown="pulldown" 
    @scrollToStart="loadTop()" 
    :pullup="pullup"  
-   @scrollToEnd="loadMore()"
-    ref="myScroll"
-    >
+   @scrollToEnd="loadMore()">
     <div class="box">
           <ul id="scrollWrap" ref="scroll-wrap" >
           <li v-for="item in data.list">
@@ -19,8 +17,8 @@
             <div class="img-box" v-if="item.imgs" >
                 <div v-for="img in getImgsPath(item.imgs)" :style="{width:item.imgs.length==1?'100%':item.imgs.length==2?'50%':'33.3%'}" @click="showPicPopup(img,item)">
                   <div>
-                    <!-- v-lazy.scrollWrap="img.pathimg" @load="imgonload" loading-->
-                    <img  :style="changeImgW(item.imgs)" :src="img.pathimg" @load="imgonload">
+                    <!-- v-lazy.scrollWrap="img.pathimg" -->
+                    <img  :style="changeImgW(item.imgs)" v-lazy.scrollWrap="img.pathimg">
                     <span v-show="img.fmt == 'gif'" class="gifImg typeImg"></span>
                     <span v-show="img.video == 1" class="mp4Img typeImg"></span>
                   </div>
@@ -36,7 +34,7 @@
                     <div v-for="img in getImgsPath(item.god_reviews[0].imgs)" :style="{width:item.god_reviews[0].imgs.length==1?'100%':item.god_reviews[0].imgs.length==2?'50%':'33.3%'}" @click="showPicPopup(img,item.god_reviews[0])">
                       <div>
                         <!-- v-lazy.scrollWrap="img.pathimg" -->
-                        <img  :style="changeImgW(item.god_reviews[0].imgs)" :src="img.pathimg" @load="imgonload">
+                        <img  :style="changeImgW(item.god_reviews[0].imgs)" v-lazy.scrollWrap="img.pathimg">
                         <span v-show="img.fmt == 'gif'" class="gifImg typeImg"></span>
                         <span v-show="img.video == 1" class="mp4Img typeImg"></span>
                       </div>
@@ -59,7 +57,6 @@
 import PicPopup from '../components/PicPopup'
 import MyScroll from '../components/MyScroll'
 import AudioTag from '../components/Audio'
-import {preloadImages} from '../preloadImages.js'
 
 export default {
   name: 'Index'
@@ -100,15 +97,19 @@ export default {
       more:true,
       data : {},
       baseimgpath:'https://file.izuiyou.com/img/view/',
-      loadend:false,
 
     }
   }
   ,methods:{
     getDataList(callback){
-      if(!this.more){return;}
+      //判断本地是否有资源
+      // if(window.sessionStorage.datalist){
+      //   this.data = JSON.parse(window.sessionStorage.datalist);return ;
+      // }
+      if(!this.more){
+        return;
+      }
       let vue = this;
-      vue.loadend = false;
       this.$axios.post(this.request.baseurl,this.request.requestdata)
       .then(function(response) {
         if(response.data.ret == 1){
@@ -134,12 +135,10 @@ export default {
           console.log(error);
         }
         vue.loadingMore = true;
-        vue.loadend = true;
         callback(response.data.ret);
       }).catch((error)=>{
           vue.more = false;
           console.log(error);
-          vue.loadend = true;
       });
     },
     getImgsPath(imgArr){
@@ -168,9 +167,6 @@ export default {
     loadMore() {
       this.pullup = false;
       this.loading = true;
-      if(!this.loadend){
-          return ;
-      }
       let vue = this;
       setTimeout(()=>{
         vue.getDataList((code)=>{
@@ -201,8 +197,7 @@ export default {
       this.picPopup.show = true;
       if(img.video == 1){
         this.picPopup.type = "video";
-        console.log(item.videos[img.id])
-        this.picPopup.path.img = 'http://file.izuiyou.com/img/view/id/'+item.videos[img.id].thumb+'?width=540'
+        this.picPopup.path.img = item.videos[img.id].cover_urls[0]
         this.picPopup.path.video = item.videos[img.id].url;
       }else{
         this.picPopup.type = "img";
@@ -212,9 +207,6 @@ export default {
     },
     updateaudio(data){
       this.whoplay = data;
-    },
-    imgonload(){
-        this.$refs.myScroll.refresh();
     }
   }
   ,created:function(){

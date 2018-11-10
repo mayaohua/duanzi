@@ -90,7 +90,6 @@ export default {
 	position: absolute;
 	/*top:50px;*/
 	right:0px;
-	color:white;
 	font-size: 30px;
 	line-height: 30px;
 	width: 30px;
@@ -98,10 +97,13 @@ export default {
 	display: block;
 	padding: 10px;
 	top:0;
-	background: -webkit-linear-gradient(left top, red , blue); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(bottom right, red, blue); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(bottom right, red, blue); /* Firefox 3.6 - 15 */
-	background: linear-gradient(to bottom right, red , blue);
+	background: linear-gradient(to right, white, black);
+	-webkit-background-clip: text;
+	color: transparent;
+	/*background: -webkit-linear-gradient(left top, red , blue); !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(bottom right, red, blue); !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(bottom right, red, blue); !* Firefox 3.6 - 15 *!*/
+	/*background: linear-gradient(to bottom right, red , blue);*/
 }
 .picpopup-wrap div.slides{
 	position: relative;

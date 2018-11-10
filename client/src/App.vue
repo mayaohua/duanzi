@@ -30,6 +30,7 @@ export default {
   created:function(){
   },
   mounted: function() {
+     console.log(this.$route);
     // 指定初始路由
     //this.$router.push('/index');
   },
