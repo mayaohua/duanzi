@@ -11713,3 +11713,689 @@ SyntaxError: missing ) after argument list
     at require (internal/module.js:11:18)
     at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
     at Module._compile (module.js:652:30)
+2018-07-17 16:10 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:80:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:10 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:80:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:10 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:80:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:11 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:80:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:11 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:80:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:13 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:13 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:14 +08:00: Error: write after end
+    at write_ (_http_outgoing.js:622:15)
+    at ServerResponse.write (_http_outgoing.js:617:10)
+    at router.get (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:90:6)
+    at Layer.handle [as handle_request] (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/router/index.js:275:10)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:14 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:87
+})
+^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 16:18 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:18 +08:00: ReferenceError: error is not defined
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81:3)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:22 +08:00: Error: "value" required in setHeader("Content-Type", value)
+    at validateHeader (_http_outgoing.js:489:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.setWriteHeadHeaders (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:82:19)
+    at ServerResponse.writeHead (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:41:36)
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:82:9)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+2018-07-17 16:22 +08:00: Error: "value" required in setHeader("Content-Type", value)
+    at validateHeader (_http_outgoing.js:489:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.setWriteHeadHeaders (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:82:19)
+    at ServerResponse.writeHead (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:41:36)
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:82:9)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+2018-07-17 16:23 +08:00: Error: "value" required in setHeader("Content-Type", value)
+    at validateHeader (_http_outgoing.js:489:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.setWriteHeadHeaders (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:82:19)
+    at ServerResponse.writeHead (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:41:36)
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:83:9)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+2018-07-17 16:25 +08:00: Error: "value" required in setHeader("Content-Type", value)
+    at validateHeader (_http_outgoing.js:489:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.setWriteHeadHeaders (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:82:19)
+    at ServerResponse.writeHead (/Users/mayh/www/NodeProject/duanzi/server/node_modules/on-headers/index.js:41:36)
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:83:9)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+2018-07-17 16:29 +08:00: TypeError: res.writeHead is not a function
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:82:8)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 16:52 +08:00: Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/response.js:170:12)
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:85:9)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+2018-07-17 16:53 +08:00: Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayh/www/NodeProject/duanzi/server/node_modules/express/lib/response.js:170:12)
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:85:9)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+2018-07-17 17:02 +08:00: TypeError: res.write is not a function
+    at Request._callback (/Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:86:8)
+    at Request.self.callback (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-17 17:13 +08:00: /Users/mayh/www/NodeProject/duanzi/server/routes/tk.js:81
+	request('http://www.513.com/home/img/head_logo.png', encoding: null).pipe(fs.createWriteStream('doodle.png'));
+	                                                     ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/routes/index.js:8:16)
+2018-07-18 16:24 +08:00: Error: Connection lost: The server closed the connection.
+    at Protocol.end (/Users/mayh/www/NodeProject/duanzi/server/node_modules/mysql/lib/protocol/Protocol.js:113:13)
+    at Socket.<anonymous> (/Users/mayh/www/NodeProject/duanzi/server/node_modules/mysql/lib/Connection.js:109:28)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)

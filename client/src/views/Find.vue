@@ -21,6 +21,7 @@ export default {
           "token": "TcK1NKHn5iSng4ZCsJ0DlRUMA3oPMNA8mEESo9j_HzF8FwzV4U5Hw76W4UyznX2Lq4-0u",
           "tid": 112357,//声控
           "next_cb": "",
+	  "c_types": [1, 2, 3, 9]
         }
       }
     }

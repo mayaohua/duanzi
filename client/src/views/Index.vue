@@ -18,10 +18,11 @@ export default {
         requestdata: {
           "sort": "hot",//hot
           "h_m": 69753545,
-          "token": "TcK1NKHn5iSng4ZCsJ0DlRUMA3oPMNA8mEESo9j_HzF8FwzV4U5Hw76W4UyznX2Lq4-0u",
+          "token": "TcK7NKHn5iSng4ZCsJ0DlRUMA3srzoVcy_h5t7rnbBn4xeYXF2xbtAqVEgI3nqiaKc1lo",
           "tid": 118719,
           "next_cb": "",
-        }
+          "c_types": [1, 2, 3, 9]
+	}
       }
     }
   }
