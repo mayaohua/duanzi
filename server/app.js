@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const timeout = require('connect-timeout');
 const proxy = require('http-proxy-middleware');
-
+var history =  require('connect-history-api-fallback');
 var app = express();
 
 
@@ -43,11 +43,11 @@ app.use('/wx', indexRouter);
 
 
 app.use(cookieParser());
+app.use(history());
 app.use(express.static(path.join(__dirname, '../client/dist')));
-
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
+	console.log(req);
 	next(createError(404));
 });
 
