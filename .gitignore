@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 node_modules/
 /dist/
-/server/
+server/
 =======
 .DS_Store
 node_modules/
